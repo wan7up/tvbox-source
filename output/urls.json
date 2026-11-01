@@ -1,0 +1,36 @@
+{
+  "urls": [
+    {
+      "url": "https://raw.githubusercontent.com/wan7up/tvbox-source/main/output/feimao.json",
+      "name": "肥猫"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wan7up/tvbox-source/main/output/wangerxiao.json",
+      "name": "王二小"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wan7up/tvbox-source/main/output/laoliubei.json",
+      "name": "老刘备"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wan7up/tvbox-source/main/output/4k.json",
+      "name": "4K小盒子"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wan7up/tvbox-source/main/output/xiaohezi.json",
+      "name": "小盒子单仓"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wan7up/tvbox-source/main/output/shiguang.json",
+      "name": "拾光多仓"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wan7up/tvbox-source/main/output/tinghao.json",
+      "name": "挺好分享多仓"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wan7up/tvbox-source/main/output/xiaoma.json",
+      "name": "小马"
+    }
+  ]
+}
