@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TVBox 源验证</title>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC",sans-serif;background:#1a1a2e;color:#eee;min-height:100vh}
+header{background:#16213e;padding:16px;text-align:center;position:sticky;top:0;z-index:10}
+header h1{font-size:20px}
+header p{font-size:12px;color:#888;margin-top:4px}
+#player-wrap{background:#000;position:sticky;top:73px;z-index:9;display:none}
+#player{width:100%;max-height:40vh;background:#000}
+#player-info{padding:8px 16px;font-size:13px;color:#aaa;background:#0f0f1a}
+#search{width:calc(100% - 32px);margin:12px 16px;padding:10px;border:1px solid #333;border-radius:8px;background:#16213e;color:#eee;font-size:15px}
+#stats{padding:0 16px 8px;font-size:13px;color:#888}
+.site{background:#16213e;margin:8px 16px;border-radius:10px;padding:12px;display:flex;align-items:center;gap:10px}
+.site .dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.dot.ok{background:#4caf50}.dot.fail{background:#f44336}.dot.unknown{background:#666}
+.site .info{flex:1;min-width:0}
+.site .name{font-size:15px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.site .meta{font-size:12px;color:#888;margin-top:2px}
+.site button{background:#e94560;border:none;color:#fff;padding:8px 14px;border-radius:6px;font-size:13px;cursor:pointer;flex-shrink:0}
+.site button:active{opacity:.7}
+#loading{text-align:center;padding:40px;color:#888}
+</style>
+</head>
+<body>
+<header>
+<h1>📺 TVBox 源验证</h1>
+<p id="update-time">加载中…</p>
+</header>
+<div id="player-wrap">
+<video id="player" controls playsinline></video>
+<div id="player-info">点击下方任意源的「试播」按钮</div>
+</div>
+<input id="search" type="search" placeholder="🔍 搜索源名称…">
+<div id="stats"></div>
+<div id="list"><div id="loading">加载源列表…</div></div>
+<script>
+let sites=[], status={};
+const video=document.getElementById('player'), wrap=document.getElementById('player-wrap'), info=document.getElementById('player-info');
+let hls=null;
+async function load(){
+  try{
+    const [a,b]=await Promise.all([fetch('tvbox.json').then(r=>r.json()),fetch('status.json').then(r=>r.json()).catch(()=>({sources:{}}))]);
+    sites=a.sites||[]; status=b.sources||{};
+    document.getElementById('update-time').textContent='共 '+sites.length+' 个源 · '+(b.updated_at||'').slice(0,16).replace('T',' ');
+    render('');
+  }catch(e){document.getElementById('loading').textContent='加载失败：'+e.message;}
+}
+function render(q){
+  const list=document.getElementById('list'); list.innerHTML='';
+  const filtered=sites.filter(s=>(s.name||'').toLowerCase().includes(q.toLowerCase()));
+  document.getElementById('stats').textContent='显示 '+filtered.length+' / '+sites.length;
+  filtered.forEach(s=>{
+    const div=document.createElement('div'); div.className='site';
+    const st=Object.values(status).find(v=>v.name&&s.name&&v.name===s.name);
+    const dot=document.createElement('div'); dot.className='dot '+(st?(st.ok?'ok':'fail'):'unknown');
+    const inf=document.createElement('div'); inf.className='info';
+    const nm=document.createElement('div'); nm.className='name'; nm.textContent=s.name||s.key;
+    const mt=document.createElement('div'); mt.className='meta';
+    mt.textContent='type:'+s.type+' | '+(s.api||'').slice(0,50);
+    inf.appendChild(nm); inf.appendChild(mt);
+    const btn=document.createElement('button'); btn.textContent='试播';
+    btn.onclick=()=>testPlay(s);
+    div.appendChild(dot); div.appendChild(inf); div.appendChild(btn);
+    list.appendChild(div);
+  });
+}
+async function testPlay(s){
+  wrap.style.display='block';
+  info.textContent='正在测试 '+(s.name||s.key)+'…';
+  wrap.scrollIntoView({behavior:'smooth'});
+  // type 0/1: 尝试取列表拿第一部片的播放地址
+  if(s.type===0||s.type===1){
+    try{
+      const api=s.api.split(';')[0], sep=api.includes('?')?'&':'?';
+      const l=await (await fetch(api+sep+'ac=videolist&pg=1')).json();
+      const v=(l.list||[])[0]; if(!v) throw '无影片';
+      const d=await (await fetch(api+sep+'ac=detail&ids='+(v.vod_id||v.id))).json();
+      const dl=(d.list||[])[0]||{};
+      const raw=dl.vod_play_url||'';
+      const first=raw.split('#')[0];
+      const url=first.includes('$')?first.split('$')[1]:first;
+      if(!url||!url.startsWith('http')) throw '无播放地址';
+      playUrl(url, s.name);
+    }catch(e){ info.textContent='❌ '+(s.name||s.key)+' 测试失败：'+e; }
+    return;
+  }
+  info.textContent='⚠️ '+(s.name||s.key)+' 是爬虫源（type 3），浏览器无法直接试播，请在 TVBox App 内验证';
+}
+function playUrl(url,name){
+  info.textContent='▶️ 正在播放 '+name;
+  if(hls){hls.destroy();hls=null;}
+  if(url.includes('.m3u8')&&Hls.isSupported()){
+    hls=new Hls(); hls.loadSource(url); hls.attachMedia(video);
+    hls.on(Hls.Events.ERROR,(e,d)=>{if(d.fatal)info.textContent='❌ 播放失败：'+d.type;});
+  }else{ video.src=url; }
+  video.play().catch(()=>{info.textContent='⚠️ 点击播放器手动播放';});
+}
+document.getElementById('search').addEventListener('input',e=>render(e.target.value));
+load();
+</script>
+</body>
+</html>

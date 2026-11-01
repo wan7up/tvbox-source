@@ -334,27 +334,109 @@ def site_fingerprint(site: Dict[str, Any]) -> str:
 
 # ---------- 站点健康检查 ----------
 
+def check_cms_playable(api: str, timeout: int = SITE_CHECK_TIMEOUT) -> Tuple[bool, float, str]:
+    """CMS 深度验证：取列表 -> 取详情 -> 取播放地址 -> HEAD 验证出流。
+    返回 (是否可播, 耗时, 备注)。"""
+    start = time.monotonic()
+    headers = {"User-Agent": DEFAULT_UA}
+    try:
+        # 1. 取视频列表
+        sep = "&" if "?" in api else "?"
+        list_url = to_punycode_url(f"{api}{sep}ac=videolist&pg=1")
+        r = requests.get(list_url, headers=headers, timeout=timeout)
+        if r.status_code >= 400:
+            return False, round(time.monotonic() - start, 3), f"列表接口 {r.status_code}"
+        try:
+            data = r.json()
+        except Exception:
+            # XML 格式
+            import xml.etree.ElementTree as ET
+            try:
+                root = ET.fromstring(r.text)
+                videos = root.findall(".//video")
+                if not videos:
+                    return False, round(time.monotonic() - start, 3), "列表无影片"
+                vid = videos[0].findtext("id", "")
+            except Exception:
+                return False, round(time.monotonic() - start, 3), "列表解析失败"
+        else:
+            vlist = data.get("list", [])
+            if not vlist:
+                return False, round(time.monotonic() - start, 3), "列表无影片"
+            vid = vlist[0].get("vod_id", "")
+
+        if not vid:
+            return False, round(time.monotonic() - start, 3), "取不到影片ID"
+
+        # 2. 取详情拿播放地址
+        detail_url = to_punycode_url(f"{api}{sep}ac=detail&ids={vid}")
+        r2 = requests.get(detail_url, headers=headers, timeout=timeout)
+        if r2.status_code >= 400:
+            return False, round(time.monotonic() - start, 3), f"详情接口 {r2.status_code}"
+        play_url = ""
+        try:
+            d2 = r2.json()
+            dl = d2.get("list", [{}])[0]
+            play_from = dl.get("vod_play_from", "")
+            play_url_raw = dl.get("vod_play_url", "")
+            if play_url_raw:
+                # 格式： 名称$地址#名称$地址
+                first = play_url_raw.split("#")[0]
+                if "$" in first:
+                    play_url = first.split("$", 1)[1]
+                else:
+                    play_url = first
+        except Exception:
+            import xml.etree.ElementTree as ET
+            try:
+                root2 = ET.fromstring(r2.text)
+                v = root2.find(".//video")
+                if v is not None:
+                    dd = v.find("dl/dd")
+                    if dd is not None and dd.text:
+                        first = dd.text.split("#")[0]
+                        play_url = first.split("$", 1)[1] if "$" in first else first
+            except Exception:
+                pass
+
+        if not play_url or not play_url.startswith("http"):
+            return False, round(time.monotonic() - start, 3), "取不到播放地址"
+
+        # 3. HEAD 验证出流
+        try:
+            r3 = requests.head(to_punycode_url(play_url), headers=headers,
+                               timeout=timeout, allow_redirects=True)
+            elapsed = round(time.monotonic() - start, 3)
+            if r3.status_code < 400:
+                ct = r3.headers.get("Content-Type", "")
+                return True, elapsed, f"可播 ({ct[:30]})"
+            # 部分源禁 HEAD，改用 GET 取 1 字节
+            r4 = requests.get(to_punycode_url(play_url), headers={**headers, "Range": "bytes=0-1"},
+                              timeout=timeout, allow_redirects=True, stream=True)
+            r4.close()
+            if r4.status_code in (200, 206):
+                return True, elapsed, "可播 (Range验证)"
+            return False, elapsed, f"播放地址 {r3.status_code}"
+        except Exception as e:
+            return False, round(time.monotonic() - start, 3), f"播放地址不可达"
+    except Exception as e:
+        return False, round(time.monotonic() - start, 3), f"异常: {e.__class__.__name__}"
+
+
 def check_site_health(site: Dict[str, Any]) -> Tuple[bool, float]:
     """分层健康检查。返回 (健康, 耗时)。"""
     stype = site.get("type")
     start = time.monotonic()
     try:
         if stype in (0, 1):
-            # CMS 接口：请求 ?ac=list 验证返回
+            # CMS 接口：深度验证到可播
             api = site.get("api", "")
             if not api:
                 return False, 0
-            sep = "&" if "?" in api else "?"
-            test_url = f"{api}{sep}ac=list"
-            text, _, _ = fetch_url_with_retry(test_url, timeout=SITE_CHECK_TIMEOUT, retries=0)
-            elapsed = round(time.monotonic() - start, 3)
-            if not text:
-                return False, elapsed
-            # 简单验证：包含 class 或 list 关键字
-            low = text[:2000].lower()
-            if "class" in low or "list" in low or "vod" in low:
-                return True, elapsed
-            return False, elapsed
+            ok, elapsed, note = check_cms_playable(api.split(";")[0])
+            if not ok:
+                logger.debug("CMS 不可播 %s: %s", site.get("key"), note)
+            return ok, elapsed
         elif stype == 3:
             # 爬虫源：检查 ext 和 jar 可达性
             ext = site.get("ext", "")
