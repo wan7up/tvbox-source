@@ -722,25 +722,41 @@ def main():
         json.dump({"sites": cms_sites}, f, ensure_ascii=False, indent=2)
     logger.info("纯 CMS 配置：%d 个站点", len(cms_sites))
 
-    # MiraPlay/CatVod 格式
+    # MiraPlay/CatVod 格式 (index.config.js)
     try:
-        import hashlib
+        import hashlib, re
         miraplay_dir = os.path.join(ROOT_DIR, "miraplay")
         os.makedirs(miraplay_dir, exist_ok=True)
+        cms_sources = []
+        for s in cms_sites:
+            name = s.get("name", "").strip()
+            name = re.sub(r'^[\U0001F000-\U0001FAFF\u2600-\u27BF\u2B00-\u2BFF\uFE00-\uFE0F\s┃🎥🦊🐯🐓🕹️🌪️🎏|]+', '', name).strip()
+            if not name:
+                name = s.get("key", "unknown")
+            # 跳过已知死源
+            if "建安" in name:
+                continue
+            cms_sources.append({"name": name, "address": s.get("api", "")})
         js_content = (
-            "// Auto-generated CMS sources for MiraPlay/CatVod\n"
-            "// Source: wan7up/tvbox-source\n"
-            "module.exports = {\n"
-            '  "sites": ' + json.dumps(cms_sites, ensure_ascii=False, indent=2) + "\n"
+            "// Auto-generated for MiraPlay/CatVod\n"
+            "// Source: wan7up/tvbox-source\n\n"
+            "const cmsSources = " + json.dumps(cms_sources, ensure_ascii=False, indent=4) + ";\n\n"
+            "export default {\n"
+            "    cms: {\n"
+            "        list: cmsSources,\n"
+            "    },\n"
+            "    sites: { list: [], },\n"
+            "    pans: { list: [], },\n"
+            "    t4: { list: [], },\n"
             "};\n"
         )
-        js_path = os.path.join(miraplay_dir, "index.js")
+        js_path = os.path.join(miraplay_dir, "index.config.js")
         with open(js_path, "w", encoding="utf-8") as f:
             f.write(js_content)
         md5 = hashlib.md5(js_content.encode("utf-8")).hexdigest()
-        with open(os.path.join(miraplay_dir, "index.js.md5"), "w") as f:
+        with open(os.path.join(miraplay_dir, "index.config.js.md5"), "w") as f:
             f.write(md5 + "\n")
-        logger.info("MiraPlay 格式已生成 (md5: %s)", md5)
+        logger.info("MiraPlay 格式已生成 (%d 源, md5: %s)", len(cms_sources), md5)
     except Exception as e:
         logger.warning("MiraPlay 格式生成失败: %s", e)
 
