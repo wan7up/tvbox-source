@@ -3,77 +3,77 @@
     "feimao": {
       "name": "肥猫",
       "ok": true,
-      "latency": 1.389,
-      "sites": 39,
+      "latency": 1.372,
+      "sites": 40,
       "error": null,
       "consecutive_failures": 0,
       "quarantined": false,
-      "checked_at": "2026-11-01T17:26:01.652091+00:00",
-      "sites_total": 39
+      "checked_at": "2026-11-01T18:23:40.495222+00:00",
+      "sites_total": 40
     },
     "wangerxiao": {
       "name": "王二小",
       "ok": true,
-      "latency": 0.972,
+      "latency": 1.018,
       "sites": 63,
       "error": null,
       "consecutive_failures": 0,
       "quarantined": false,
-      "checked_at": "2026-11-01T17:26:18.930209+00:00",
+      "checked_at": "2026-11-01T18:23:55.814329+00:00",
       "sites_total": 63
     },
     "laoliubei": {
       "name": "老刘备",
       "ok": true,
-      "latency": 0.753,
-      "sites": 195,
+      "latency": 0.802,
+      "sites": 193,
       "error": null,
       "consecutive_failures": 0,
       "quarantined": false,
-      "checked_at": "2026-11-01T17:26:25.815150+00:00",
+      "checked_at": "2026-11-01T18:24:06.581818+00:00",
       "sites_total": 234
     },
     "4k": {
       "name": "4K小盒子",
       "ok": true,
-      "latency": 0.475,
-      "sites": 17,
+      "latency": 0.787,
+      "sites": 15,
       "error": null,
       "consecutive_failures": 0,
       "quarantined": false,
-      "checked_at": "2026-11-01T17:27:36.142071+00:00",
+      "checked_at": "2026-11-01T18:25:15.631259+00:00",
       "sites_total": 53
     },
     "xiaohezi": {
       "name": "小盒子单仓",
       "ok": true,
-      "latency": 0.48,
+      "latency": 0.537,
       "sites": 54,
       "error": null,
       "consecutive_failures": 0,
       "quarantined": false,
-      "checked_at": "2026-11-01T17:28:00.676826+00:00",
+      "checked_at": "2026-11-01T18:25:42.678873+00:00",
       "sites_total": 54
     },
     "shiguang": {
       "name": "拾光多仓",
       "ok": true,
-      "latency": 0.888,
+      "latency": 5.617,
       "sites": 0,
       "error": null,
       "consecutive_failures": 0,
       "quarantined": false,
-      "checked_at": "2026-11-01T17:28:11.847365+00:00"
+      "checked_at": "2026-11-01T18:25:56.564755+00:00"
     },
     "tinghao": {
       "name": "挺好分享多仓",
       "ok": true,
-      "latency": 1.627,
+      "latency": 1.595,
       "sites": 0,
       "error": null,
       "consecutive_failures": 0,
       "quarantined": false,
-      "checked_at": "2026-11-01T17:28:13.478057+00:00"
+      "checked_at": "2026-11-01T18:25:58.163460+00:00"
     },
     "fantaiying": {
       "name": "饭太硬",
@@ -81,21 +81,21 @@
       "latency": null,
       "sites": 0,
       "error": "JSON解析失败",
-      "consecutive_failures": 1,
-      "quarantined": false,
-      "checked_at": "2026-11-01T17:28:19.723068+00:00"
+      "consecutive_failures": 3,
+      "quarantined": true,
+      "checked_at": "2026-11-01T18:26:04.862319+00:00"
     },
     "xiaoma": {
       "name": "小马",
       "ok": true,
-      "latency": 11.711,
-      "sites": 20,
+      "latency": 11.416,
+      "sites": 12,
       "error": null,
       "consecutive_failures": 0,
       "quarantined": false,
-      "checked_at": "2026-11-01T17:28:31.447314+00:00",
+      "checked_at": "2026-11-01T18:26:16.290138+00:00",
       "sites_total": 62
     }
   },
-  "updated_at": "2026-11-01T17:29:07.921733+00:00"
+  "updated_at": "2026-11-01T18:26:57.534715+00:00"
 }
