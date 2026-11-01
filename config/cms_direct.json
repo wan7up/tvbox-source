@@ -1,0 +1,29 @@
+[
+  {
+    "key": "subo_cms",
+    "name": "速播采集",
+    "type": 1,
+    "api": "https://subocaiji.com/api.php/provide/vod/",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+  {
+    "key": "lebo_cms",
+    "name": "乐播采集",
+    "type": 1,
+    "api": "https://lbapi9.com/api.php/provide/vod/",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+  {
+    "key": "fanyu_cms",
+    "name": "番禺采集",
+    "type": 1,
+    "api": "http://fhapi9.com/api.php/provide/vod/",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  }
+]

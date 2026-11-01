@@ -483,7 +483,7 @@ def check_site_health(site: Dict[str, Any]) -> Tuple[bool, float]:
 
 
 def batch_health_check(sites: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """并发健康检查，返回健康的站点（按耗时排序）。"""
+    """并发健康检查，返回健康的站点（按耗时排序）。健康站点带 _check_note。"""
     healthy = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=SITE_CHECK_CONCURRENCY) as pool:
         future_map = {pool.submit(check_site_health, s): s for s in sites}
@@ -692,9 +692,35 @@ def main():
     merged = merge_sources(results)
     logger.info("聚合完成：%d 个去重站点", len(merged.get("sites", [])))
 
+    # 合并本地 CMS 直连清单
+    cms_direct_path = os.path.join(ROOT_DIR, "config", "cms_direct.json")
+    if os.path.exists(cms_direct_path):
+        try:
+            with open(cms_direct_path, "r", encoding="utf-8") as f:
+                cms_direct = json.load(f)
+            logger.info("本地 CMS 清单：%d 个", len(cms_direct))
+            # 健康检查后并入
+            healthy_direct = batch_health_check(cms_direct)
+            logger.info("本地 CMS 健康：%d/%d", len(healthy_direct), len(cms_direct))
+            # 去重并入
+            existing_fp = {site_fingerprint(s) for s in merged.get("sites", [])}
+            for s in healthy_direct:
+                if site_fingerprint(s) not in existing_fp:
+                    merged["sites"].append(s)
+                    existing_fp.add(site_fingerprint(s))
+        except Exception as e:
+            logger.warning("本地 CMS 清单处理失败: %s", e)
+
     tvbox_path = os.path.join(OUTPUT_DIR, "tvbox.json")
     with open(tvbox_path, "w", encoding="utf-8") as f:
         json.dump(merged, f, ensure_ascii=False, indent=2)
+
+    # 纯 CMS 配置（最稳）
+    cms_sites = [s for s in merged.get("sites", []) if s.get("type") in (0, 1)]
+    cms_path = os.path.join(OUTPUT_DIR, "tvbox-cms.json")
+    with open(cms_path, "w", encoding="utf-8") as f:
+        json.dump({"sites": cms_sites}, f, ensure_ascii=False, indent=2)
+    logger.info("纯 CMS 配置：%d 个站点", len(cms_sites))
 
     # 多仓订阅 urls.json
     urls_cfg = {"urls": []}
