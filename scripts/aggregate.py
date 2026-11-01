@@ -722,43 +722,17 @@ def main():
         json.dump({"sites": cms_sites}, f, ensure_ascii=False, indent=2)
     logger.info("纯 CMS 配置：%d 个站点", len(cms_sites))
 
-    # MiraPlay/CatVod 格式 (index.config.js)
-    try:
-        import hashlib, re
-        miraplay_dir = os.path.join(ROOT_DIR, "miraplay")
-        os.makedirs(miraplay_dir, exist_ok=True)
-        cms_sources = []
-        for s in cms_sites:
-            name = s.get("name", "").strip()
-            name = re.sub(r'^[\U0001F000-\U0001FAFF\u2600-\u27BF\u2B00-\u2BFF\uFE00-\uFE0F\s┃🎥🦊🐯🐓🕹️🌪️🎏|]+', '', name).strip()
-            if not name:
-                name = s.get("key", "unknown")
-            # 跳过已知死源
-            if "建安" in name:
-                continue
-            cms_sources.append({"name": name, "address": s.get("api", "")})
-        js_content = (
-            "// Auto-generated for MiraPlay/CatVod\n"
-            "// Source: wan7up/tvbox-source\n\n"
-            "const cmsSources = " + json.dumps(cms_sources, ensure_ascii=False, indent=4) + ";\n\n"
-            "export default {\n"
-            "    cms: {\n"
-            "        list: cmsSources,\n"
-            "    },\n"
-            "    sites: { list: [], },\n"
-            "    pans: { list: [], },\n"
-            "    t4: { list: [], },\n"
-            "};\n"
-        )
-        js_path = os.path.join(miraplay_dir, "index.config.js")
-        with open(js_path, "w", encoding="utf-8") as f:
-            f.write(js_content)
-        md5 = hashlib.md5(js_content.encode("utf-8")).hexdigest()
-        with open(os.path.join(miraplay_dir, "index.config.js.md5"), "w") as f:
-            f.write(md5 + "\n")
-        logger.info("MiraPlay 格式已生成 (%d 源, md5: %s)", len(cms_sources), md5)
-    except Exception as e:
-        logger.warning("MiraPlay 格式生成失败: %s", e)
+    # MiraPlay/CatVod 说明：
+    # miraplay/ 目录下的 4 个文件（index.js/index.js.md5/index.config.js/index.config.js.md5）
+    # 必须用 CatPawOpen 官方构建产物（npm run build），不能手写。
+    # 原因：MiraPlay 要从同一目录成套加载运行时(index.js, douer引擎) + 配置(index.config.js, CJS格式)，
+    # 手写的 ESM/CJS 配置会被报「格式错误，请输⼊ CatPawOpen 源地址」。
+    # CMS 清单变化后，在云电脑上重跑构建：
+    #   1. 把 output/tvbox-cms.json + config/cms_direct.json 的站点写入 /tmp/CatPawOpen/nodejs/src/index.config.js 的 cmsSources
+    #   2. cd /tmp/CatPawOpen/nodejs && npm run build
+    #   3. 把 dist/ 下 4 个文件拷到 miraplay/ 并推送
+    # 此处不再自动生成，避免覆盖正确的构建产物。
+    logger.info("MiraPlay 文件需手动经 CatPawOpen 构建更新，此处跳过")
 
     # 多仓订阅 urls.json
     urls_cfg = {"urls": []}
