@@ -41,11 +41,12 @@ header p{font-size:12px;color:#888;margin-top:4px}
 <div id="list"><div id="loading">加载源列表…</div></div>
 <script>
 let sites=[], status={};
+const BASE='https://raw.githubusercontent.com/wan7up/tvbox-source/main/output/';
 const video=document.getElementById('player'), wrap=document.getElementById('player-wrap'), info=document.getElementById('player-info');
 let hls=null;
 async function load(){
   try{
-    const [a,b]=await Promise.all([fetch('tvbox.json').then(r=>r.json()),fetch('status.json').then(r=>r.json()).catch(()=>({sources:{}}))]);
+    const [a,b]=await Promise.all([fetch(BASE+'tvbox.json').then(r=>r.json()),fetch(BASE+'status.json').then(r=>r.json()).catch(()=>({sources:{}}))]);
     sites=a.sites||[]; status=b.sources||{};
     document.getElementById('update-time').textContent='共 '+sites.length+' 个源 · '+(b.updated_at||'').slice(0,16).replace('T',' ');
     render('');
