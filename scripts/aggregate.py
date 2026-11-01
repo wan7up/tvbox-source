@@ -722,6 +722,28 @@ def main():
         json.dump({"sites": cms_sites}, f, ensure_ascii=False, indent=2)
     logger.info("纯 CMS 配置：%d 个站点", len(cms_sites))
 
+    # MiraPlay/CatVod 格式
+    try:
+        import hashlib
+        miraplay_dir = os.path.join(ROOT_DIR, "miraplay")
+        os.makedirs(miraplay_dir, exist_ok=True)
+        js_content = (
+            "// Auto-generated CMS sources for MiraPlay/CatVod\n"
+            "// Source: wan7up/tvbox-source\n"
+            "module.exports = {\n"
+            '  "sites": ' + json.dumps(cms_sites, ensure_ascii=False, indent=2) + "\n"
+            "};\n"
+        )
+        js_path = os.path.join(miraplay_dir, "index.js")
+        with open(js_path, "w", encoding="utf-8") as f:
+            f.write(js_content)
+        md5 = hashlib.md5(js_content.encode("utf-8")).hexdigest()
+        with open(os.path.join(miraplay_dir, "index.js.md5"), "w") as f:
+            f.write(md5 + "\n")
+        logger.info("MiraPlay 格式已生成 (md5: %s)", md5)
+    except Exception as e:
+        logger.warning("MiraPlay 格式生成失败: %s", e)
+
     # 多仓订阅 urls.json
     urls_cfg = {"urls": []}
     for s in statuses:
