@@ -1,9 +1,25 @@
 {
-  "spider": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676",
+  "spider": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
   "wallpaper": "https://æ·±è‰²å£�çº¸.xxooo.cf/",
   "logo": "http://w.junce.dpdns.org/fm.gif",
   "sites": [
+    {
+      "key": "csp_é«˜ä¸­",
+      "name": "ğŸ“šâ”ƒé«˜ä¸­â”ƒè¯¾å ‚",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_Bili",
+      "playerType": 2,
+      "ext": {
+        "json": "https://img2.gelonghui.com/library/e44b3-4a82ab48-e014-49b2-bb66-ee5207e8f195null",
+        "cookie": ""
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      },
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
+    },
     {
       "key": "csp_å°�å­¦",
       "name": "ğŸ“šâ”ƒå°�å­¦â”ƒè¯¾å ‚",
@@ -18,7 +34,7 @@
         "type": "rect",
         "ratio": 1.333
       },
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
       "key": "csp_åˆ�ä¸­",
@@ -34,57 +50,7 @@
         "type": "rect",
         "ratio": 1.333
       },
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
-    },
-    {
-      "key": "push_agent",
-      "name": "QQé¢‘é�“ï¼šè‚¥çŒ«å®�è´�",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_Push",
-      "playerType": "1",
-      "searchable": 0,
-      "ext": "http://xn--z7x900a.net/.json/txt/ken.txt",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
-    },
-    {
-      "key": "csp_é«˜ä¸­",
-      "name": "ğŸ“šâ”ƒé«˜ä¸­â”ƒè¯¾å ‚",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_Bili",
-      "playerType": 2,
-      "ext": {
-        "json": "https://img2.gelonghui.com/library/e44b3-4a82ab48-e014-49b2-bb66-ee5207e8f195null",
-        "cookie": ""
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      },
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
-    },
-    {
-      "key": "csp_Bili",
-      "name": "ğŸ…±â”ƒï¸�å“”å“©â”ƒå�ˆé›†",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_Bili",
-      "playerType": 2,
-      "ext": {
-        "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt",
-        "cookie": ""
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      },
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
-    },
-    {
-      "key": "csp_PanSearch",
-      "name": "ğŸšƒâ”ƒç›˜æ�œâ”ƒç½‘ç›˜",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_PanSearch",
-      "ext": "http://127.0.0.1:9978/file/fatcat/token.txt",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
       "key": "csp_å°‘å„¿",
@@ -100,30 +66,68 @@
         "type": "rect",
         "ratio": 1.333
       },
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
+    },
+    {
+      "key": "push_agent",
+      "name": "QQé¢‘é�“ï¼šè‚¥çŒ«å®�è´�",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_Push",
+      "playerType": "1",
+      "searchable": 0,
+      "ext": "http://xn--z7x900a.net/.json/txt/ken.txt",
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
+    },
+    {
+      "key": "csp_PanSearch",
+      "name": "ğŸšƒâ”ƒç›˜æ�œâ”ƒç½‘ç›˜",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_PanSearch",
+      "ext": "http://127.0.0.1:9978/file/fatcat/token.txt",
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
+    },
+    {
+      "key": "çœ‹ç�ƒ",
+      "name": "âš¾â”ƒçœ‹ç�ƒâ”ƒç›´æ’­",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_Kanqiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "gridview": 3,
+      "style": {
+        "type": "list"
+      },
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
+    },
+    {
+      "key": "csp_FirstAid",
+      "name": "ğŸš‘â”ƒæ€¥æ•‘â”ƒæ•™å­¦",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_FirstAid",
+      "searchable": 0,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 3.8
+      },
+      "gridview": "0-0-4.1",
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
+    },
+    {
+      "key": "ç±³æ�œ",
+      "name": "ğŸŒ–â”ƒç±³æ�œâ”ƒç½‘ç›˜",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_MiSou",
+      "ext": "http://127.0.0.1:9978/file/fatcat/kk.txt",
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
       "key": "csp_SP360",
       "name": "ğŸ“ºâ”ƒ360â”ƒå®˜æº�",
       "type": 3,
       "api": "http://xn--z7x900a.net/csp_SP360",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
-    },
-    {
-      "key": "é…·ç‹—",
-      "name": "ğŸ�¾â”ƒé…·ç‹—â”ƒéŸ³ä¹�",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_Kugou",
-      "playerType": 2,
-      "ext": {
-        "classes": [
-          {
-            "type_name": "é…·ç‹—",
-            "type_id": "kugou"
-          }
-        ]
-      },
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
       "key": "ç“œå­�",
@@ -140,29 +144,38 @@
       "timeout": 12,
       "order_num": 0,
       "changeable": 0,
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
-      "key": "çœ‹ç�ƒ",
-      "name": "âš¾â”ƒçœ‹ç�ƒâ”ƒç›´æ’­",
+      "key": "å„¿ç«¥",
+      "name": "ğŸ“šâ”ƒå„¿ç«¥â”ƒå�¯è’™",
       "type": 3,
-      "api": "http://xn--z7x900a.net/csp_Kanqiu",
-      "searchable": 1,
-      "quickSearch": 1,
+      "api": "http://xn--z7x900a.net/api/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
       "changeable": 0,
-      "gridview": 3,
       "style": {
-        "type": "list"
+        "type": "rect",
+        "ratio": 1.597
       },
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "ext": "http://xn--z7x900a.net/js/å…”å°�è´�.js",
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
-      "key": "ç±³æ�œ",
-      "name": "ğŸŒ–â”ƒç±³æ�œâ”ƒç½‘ç›˜",
+      "key": "csp_Bili",
+      "name": "ğŸ…±â”ƒï¸�å“”å“©â”ƒå�ˆé›†",
       "type": 3,
-      "api": "http://xn--z7x900a.net/csp_MiSou",
-      "ext": "http://127.0.0.1:9978/file/fatcat/kk.txt",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "api": "http://xn--z7x900a.net/csp_Bili",
+      "playerType": 2,
+      "ext": {
+        "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt",
+        "cookie": ""
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      },
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
       "key": "MTV",
@@ -178,31 +191,50 @@
         "type": "rect",
         "ratio": 1.333
       },
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
-      "key": "csp_FirstAid",
-      "name": "ğŸš‘â”ƒæ€¥æ•‘â”ƒæ•™å­¦",
+      "key": "PanMarket",
+      "name": "ğŸ�¼â”ƒç½‘ç›˜â”ƒåº”ç”¨",
       "type": 3,
-      "api": "http://xn--z7x900a.net/csp_FirstAid",
+      "api": "http://xn--z7x900a.net/csp_PanMarket",
       "searchable": 0,
-      "quickSearch": 0,
       "style": {
-        "type": "rect",
-        "ratio": 3.8
+        "type": "list"
       },
-      "gridview": "0-0-4.1",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "ext": {
+        "categories": [
+          {
+            "name": "Fongmiå½±è§†",
+            "url": "https://pan.quark.cn/s/7129866d8655"
+          },
+          {
+            "name": "OKå½±è§†",
+            "url": "https://pan.quark.cn/s/cc286c991136"
+          },
+          {
+            "name": "Kazumi",
+            "url": "https://pan.quark.cn/s/e77ca870e15e"
+          }
+        ]
+      },
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
-      "key": "ä¸€èµ·",
-      "name": "ğŸ‘€â”ƒä¸€èµ·â”ƒAPP",
+      "key": "csp_Gz360",
+      "name": "ğŸ�‰â”ƒç“œå­�â”ƒå½±è§†",
       "type": 3,
-      "api": "http://xn--z7x900a.net/csp_AppYQK",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "api": "http://xn--z7x900a.net/csp_Gz360",
+      "playerType": 2,
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
+    },
+    {
+      "key": "å…‰ç›˜",
+      "name": "ğŸ“€â”ƒå…‰ç›˜â”ƒAPP",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_AppQi",
+      "ext": "http://103.217.190.91:5566|hagYExMdMkeWfemK",
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
       "key": "å¹²é¥­",
@@ -220,15 +252,7 @@
         "version": "1.0.0.3",
         "decrypt": "0"
       },
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
-    },
-    {
-      "key": "csp_Gz360",
-      "name": "ğŸ�‰â”ƒç“œå­�â”ƒå½±è§†",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_Gz360",
-      "playerType": 2,
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
       "key": "è±†ç“£",
@@ -236,80 +260,62 @@
       "type": 3,
       "api": "http://xn--z7x900a.net/csp_Douban",
       "searchable": 0,
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
-      "key": "config",
-      "name": "ğŸ�¼â”ƒé…�ç½®â”ƒä¸­å¿ƒ",
+      "key": "å�‚é•¿",
+      "name": "ğŸ�­â”ƒå�‚é•¿â”ƒå½±è§†",
       "type": 3,
-      "api": "http://xn--z7x900a.net/csp_Config",
-      "playerType": 2,
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "playerType": "2",
+      "api": "http://xn--z7x900a.net/csp_Czsapp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://cz01.vip",
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
-      "key": "å„¿ç«¥",
-      "name": "ğŸ“šâ”ƒå„¿ç«¥â”ƒå�¯è’™",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/api/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "http://xn--z7x900a.net/js/å…”å°�è´�.js",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
-    },
-    {
-      "key": "éŸ©åœˆ",
-      "name": "â­•â”ƒéŸ©åœˆ â”ƒAPP",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_Hxq",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
-    },
-    {
-      "key": "å…‰ç›˜",
-      "name": "ğŸ“€â”ƒå…‰ç›˜â”ƒAPP",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_AppQi",
-      "ext": "http://103.217.190.91:5566|hagYExMdMkeWfemK",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
-    },
-    {
-      "key": "è±†ç“£é¢„å‘Š",
-      "name": "ğŸ�¼â”ƒè±†ç“£â”ƒé¢„å‘Š",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_YGP",
-      "playerType": 2,
-      "searchable": 0,
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
-    },
-    {
-      "key": "ç•ªè–¯",
-      "name": "ğŸ� â”ƒç•ªè–¯â”ƒåŠ¨æ¼«",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_AppGet",
-      "ext": "https://app.omofun1.top|66dc309cbeeca454",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
-    },
-    {
-      "key": "å†�æ�¥",
-      "name": "âœŒï¸�â”ƒå†�æ�¥â”ƒAPP",
+      "key": "ä¸€ç¢—",
+      "name": "ğŸ¥£â”ƒä¸€ç¢—â”ƒAPP",
       "type": 3,
       "api": "http://xn--z7x900a.net/csp_AppDrama2",
       "ext": {
-        "appName": "ç”µå½±å¤©å ‚",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-        "dataKey": "D2KREWRIBVNAUJJYEDL4VFHOY2Q0PQ==",
+        "appName": "æ©˜æ±�",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+        "dataKey": "OW1WBLFZCLJ0WTNJQMRSZ2DYSGNBPT0=",
         "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.dytiantang.one",
+        "pkg": "com.mxj.wylcjbxyx",
         "host": "",
-        "site": "https://dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt",
-        "version": "3.0.0.7",
-        "decrypt": "0"
+        "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
+        "version": "3.0.2.4",
+        "decrypt": "1"
       },
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
+    },
+    {
+      "key": "é…·ç‹—",
+      "name": "ğŸ�¾â”ƒé…·ç‹—â”ƒéŸ³ä¹�",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_Kugou",
+      "playerType": 2,
+      "ext": {
+        "classes": [
+          {
+            "type_name": "é…·ç‹—",
+            "type_id": "kugou"
+          }
+        ]
+      },
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
+    },
+    {
+      "key": "csp_Dm84",
+      "name": "ğŸ¤£â”ƒåŠ¨æ¼«â”ƒå·´å£«",
+      "type": 3,
+      "playerType": "2",
+      "api": "http://xn--z7x900a.net/csp_Dm84",
+      "ext": "https://dm84.net",
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
       "key": "è��ç‰‡",
@@ -318,7 +324,67 @@
       "type": 3,
       "playerType": "2",
       "ext": "https://api.ztcgi.com",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
+    },
+    {
+      "key": "å’•å™œ",
+      "name": "ğŸ•Šâ”ƒï¸�å’•å™œâ”ƒAPP",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_Gulu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
+    },
+    {
+      "key": "è¡ŒåŠ¨",
+      "name": "ğŸ˜Œâ”ƒè¡ŒåŠ¨â”ƒAPP",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_AppDrama2",
+      "ext": {
+        "appName": "å��è°Š",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+        "dataKey": "V04XQZNYRWN6T0JODZFIAG5CTZB3PT0=",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.lxf.sncgtzxyx",
+        "host": "",
+        "site": "https://1851089669.cdn.123clouddisk.com/1851089669/44107727",
+        "version": "6.0.0.1",
+        "decrypt": "1"
+      },
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
+    },
+    {
+      "key": "è±†ç“£é¢„å‘Š",
+      "name": "ğŸ�¼â”ƒè±†ç“£â”ƒé¢„å‘Š",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_YGP",
+      "playerType": 2,
+      "searchable": 0,
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
+    },
+    {
+      "key": "ç•ªè–¯",
+      "name": "ğŸ� â”ƒç•ªè–¯â”ƒåŠ¨æ¼«",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_AppGet",
+      "ext": "https://app.omofun1.top|66dc309cbeeca454",
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
+    },
+    {
+      "key": "æ–¹èˆŸ",
+      "name": "ğŸ�·â”ƒæ–¹èˆŸâ”ƒåŠ¨æ¼«",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_AppGet",
+      "ext": "https://www.cyfz.top|e72cdfd629e8895d",
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
+    },
+    {
+      "key": "éŸ©åœˆ",
+      "name": "â­•â”ƒéŸ©åœˆ â”ƒAPP",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_Hxq",
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
       "key": "csp_FeiMaoUC",
@@ -337,43 +403,43 @@
         },
         "url_key": "FeiMaoUC"
       },
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
-      "key": "æ–¹èˆŸ",
-      "name": "ğŸ�·â”ƒæ–¹èˆŸâ”ƒåŠ¨æ¼«",
+      "key": "ä¸€èµ·",
+      "name": "ğŸ‘€â”ƒä¸€èµ·â”ƒAPP",
       "type": 3,
-      "api": "http://xn--z7x900a.net/csp_AppGet",
-      "ext": "https://www.cyfz.top|e72cdfd629e8895d",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
-    },
-    {
-      "key": "å’•å™œ",
-      "name": "ğŸ•Šâ”ƒï¸�å’•å™œâ”ƒAPP",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_Gulu",
+      "api": "http://xn--z7x900a.net/csp_AppYQK",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "filterable": 0,
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
-      "key": "è¡ŒåŠ¨",
-      "name": "ğŸ˜Œâ”ƒè¡ŒåŠ¨â”ƒAPP",
+      "key": "å†�æ�¥",
+      "name": "âœŒï¸�â”ƒå†�æ�¥â”ƒAPP",
       "type": 3,
       "api": "http://xn--z7x900a.net/csp_AppDrama2",
       "ext": {
-        "appName": "å��è°Š",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-        "dataKey": "V04XQZNYRWN6T0JODZFIAG5CTZB3PT0=",
+        "appName": "ç”µå½±å¤©å ‚",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
+        "dataKey": "D2KREWRIBVNAUJJYEDL4VFHOY2Q0PQ==",
         "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.lxf.sncgtzxyx",
+        "pkg": "com.dytiantang.one",
         "host": "",
-        "site": "https://1851089669.cdn.123clouddisk.com/1851089669/44107727",
-        "version": "6.0.0.1",
-        "decrypt": "1"
+        "site": "https://dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt",
+        "version": "3.0.0.7",
+        "decrypt": "0"
       },
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
+    },
+    {
+      "key": "config",
+      "name": "ğŸ�¼â”ƒé…�ç½®â”ƒä¸­å¿ƒ",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_Config",
+      "playerType": 2,
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
       "key": "æ½®æµ�",
@@ -381,37 +447,7 @@
       "type": 3,
       "api": "http://xn--z7x900a.net/csp_AppRJ",
       "ext": "http://v.rbotv.cn",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
-    },
-    {
-      "key": "ä¸€ç¢—",
-      "name": "ğŸ¥£â”ƒä¸€ç¢—â”ƒAPP",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_AppDrama2",
-      "ext": {
-        "appName": "æ©˜æ±�",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-        "dataKey": "OW1WBLFZCLJ0WTNJQMRSZ2DYSGNBPT0=",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.mxj.wylcjbxyx",
-        "host": "",
-        "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
-        "version": "3.0.2.4",
-        "decrypt": "1"
-      },
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
-    },
-    {
-      "key": "å�‚é•¿",
-      "name": "ğŸ�­â”ƒå�‚é•¿â”ƒå½±è§†",
-      "type": 3,
-      "playerType": "2",
-      "api": "http://xn--z7x900a.net/csp_Czsapp",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.4kcz.com/",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
       "key": "csp_Jpys",
@@ -419,16 +455,7 @@
       "type": 3,
       "api": "http://xn--z7x900a.net/csp_Jpys",
       "ext": "https://y2s52n7.com",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
-    },
-    {
-      "key": "csp_Dm84",
-      "name": "ğŸ¤£â”ƒåŠ¨æ¼«â”ƒå·´å£«",
-      "type": 3,
-      "playerType": "2",
-      "api": "http://xn--z7x900a.net/csp_Dm84",
-      "ext": "https://dm84.net",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
       "key": "alllive",
@@ -445,15 +472,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "http://xn--z7x900a.net/game",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
-    },
-    {
-      "key": "è”¬è�œ",
-      "name": "ğŸ«›â”ƒè”¬è�œâ”ƒAPP",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_AppGet",
-      "ext": "https://allinadmin.oss-cn-hangzhou.aliyuncs.com/bk/9.txt|88689667dce61725",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
       "key": "csp_SaoHuo",
@@ -462,7 +481,7 @@
       "api": "http://xn--z7x900a.net/csp_SaoHuo",
       "playerType": 2,
       "ext": "https://shdy5.us",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     },
     {
       "key": "è‚¥çŒ«",
@@ -470,7 +489,15 @@
       "type": 3,
       "api": "http://xn--z7x900a.net/csp_AppQi",
       "ext": "https://lanyingjisu.oss-cn-wuhan-lr.aliyuncs.com/lyjszx.txt|oW5UxZ5kWVr1DI69",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261030/V47C/0X0/wer.png;md5;efdab3edef534eb3d98706f0023a8676"
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
+    },
+    {
+      "key": "è”¬è�œ",
+      "name": "ğŸ«›â”ƒè”¬è�œâ”ƒAPP",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_AppGet",
+      "ext": "https://allinadmin.oss-cn-hangzhou.aliyuncs.com/bk/9.txt|88689667dce61725",
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/D1Tt/0X0/12adfa.png;md5;348548a8ba25be107353fd4e3c59ecfd"
     }
   ],
   "parses": [
