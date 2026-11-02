@@ -1,0 +1,40 @@
+name: Build Curated TVBox Sources
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'config/curated.json'
+      - 'scripts/build_curated.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build curated config
+        run: python scripts/build_curated.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/tvbox.json output/tvbox-curated.json output/status.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore(output): rebuild curated tvbox sources [skip ci]"
+            git push
+          fi
