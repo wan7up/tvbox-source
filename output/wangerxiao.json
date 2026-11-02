@@ -4,10 +4,28 @@
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
     {
-      "key": "Wexbeiwa",
-      "name": "👼贝贝┃儿歌👼",
+      "key": "AList",
+      "name": "🥇Alist┃DIY🥇",
       "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexbeiwaGuard",
+      "api": "https://d.kstore.dev/download/9280/csp_AListGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "Wexduanjuvmp",
+      "name": "🍉短剧┃瞬播🍉",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexduanjuvmpGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "Wexergeduoduo",
+      "name": "👼多多┃儿歌👼",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexergeduoduoGuard",
       "searchable": 1,
       "changeable": 0,
       "style": {
@@ -17,8 +35,33 @@
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
-      "key": "初中课堂",
-      "name": "📚初中┃课堂📚",
+      "key": "瓜子看球",
+      "name": "🌐瓜子┃体育🌐",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexGZsportGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      },
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "115",
+      "name": "💓我的┃115💓‍",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_Wex115shareGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 50,
+      "style": {
+        "type": "list"
+      },
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "小学课堂",
+      "name": "📚小学┃课堂📚",
       "type": 3,
       "api": "https://d.kstore.dev/download/9280/csp_BiliGuard",
       "style": {
@@ -29,20 +72,156 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/19B1839_773_chuzhong_20250828171521929newMediaImage.txt"
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/4A3AA71_773_xiaoxue_20250828171535645newMediaImage.txt"
       },
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
-      "key": "WexWo123panGuard",
-      "name": "💓我的┃123💓‍",
+      "key": "Wex275tingshu",
+      "name": "🎃‍极品┃听书🎃",
       "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexWo123panGuard",
+      "api": "https://d.kstore.dev/download/9280/csp_Wex275tingshuGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "Iktv",
+      "name": "🎤KTV┃音乐🎤",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexIktvGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "Wexduanju001",
+      "name": "🍉短剧┃神品🍉",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_Wexduanju001Guard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "少儿教育",
+      "name": "📚少儿┃教育📚",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/3C3AB7A_773_ertong_20250828171550247newMediaImage.txt"
+      },
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "Wextangdou",
+      "name": "💃跳舞┃教学💃",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WextangdouGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 2
+      },
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "Wexduanjuhema",
+      "name": "🍉短剧┃仙品🍉",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexduanjuhemaGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "baidu",
+      "name": "💓我的┃百度💓‍",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexWoBaiduPanGuard",
       "searchable": 1,
       "changeable": 1,
       "timeout": 50,
       "style": {
         "type": "list"
+      },
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "WexNewHuYa",
+      "name": "🐯‍虎牙┃直播🐯‍",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexNewHuYaGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "WexNewDouYu",
+      "name": "🐳斗鱼┃直播🐳",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexNewDouYuGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "xunlei",
+      "name": "💓我的┃讯蕾💓‍",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexWoXunLeiPanGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 50,
+      "style": {
+        "type": "list"
+      },
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "WexNewBiLiLive",
+      "name": "🅱️哔哩┃直播🅱️",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexNewBiLiLiveGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "Wexliyuan",
+      "name": "🎎戏曲┃秒播🎎",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexliyuanGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 2
+      },
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "高中教育",
+      "name": "📚高中┃课堂📚",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/345A587_773_gaozhong_20250828171449997newMediaImage.txt"
       },
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
@@ -56,15 +235,6 @@
       "style": {
         "type": "list"
       },
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "Wexbiliys",
-      "name": "🅱‍哔哔┃影视🅱‍",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexbiliysGuard",
-      "searchable": 1,
-      "changeable": 1,
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
@@ -90,12 +260,12 @@
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
-      "key": "Wexduanju001",
-      "name": "🍉短剧┃神品🍉",
+      "key": "WexHaiYinsoGuard",
+      "name": "🎠海音┃综合🎠",
       "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_Wexduanju001Guard",
+      "api": "https://d.kstore.dev/download/9280/csp_WexHaiYinsoGuard",
       "searchable": 1,
-      "changeable": 1,
+      "changeable": 0,
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
@@ -108,59 +278,6 @@
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
-      "key": "WexNewBiLiLive",
-      "name": "🅱️哔哩┃直播🅱️",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexNewBiLiLiveGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "WexNewHuYa",
-      "name": "🐯‍虎牙┃直播🐯‍",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexNewHuYaGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "WexHaiYinsoGuard",
-      "name": "🎠海音┃综合🎠",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexHaiYinsoGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "115",
-      "name": "💓我的┃115💓‍",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_Wex115shareGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      },
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "Wextuxiaobei",
-      "name": "👼兔兔┃儿歌👼",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WextuxiaobeiGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 2
-      },
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
       "key": "Wexduanjusuipian",
       "name": "🍉短剧┃速播🍉",
       "type": 3,
@@ -170,17 +287,30 @@
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
-      "key": "Wexduanjuhema",
-      "name": "🍉短剧┃仙品🍉",
+      "key": "Wexbaobaobashi",
+      "name": "👼宝宝┃儿歌👼",
       "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexduanjuhemaGuard",
+      "api": "https://d.kstore.dev/download/9280/csp_WexbaobaobashiGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 2
+      },
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "Wexbiliys",
+      "name": "🅱‍哔哔┃影视🅱‍",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexbiliysGuard",
       "searchable": 1,
       "changeable": 1,
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
-      "key": "小学课堂",
-      "name": "📚小学┃课堂📚",
+      "key": "初中课堂",
+      "name": "📚初中┃课堂📚",
       "type": 3,
       "api": "https://d.kstore.dev/download/9280/csp_BiliGuard",
       "style": {
@@ -191,32 +321,46 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/4A3AA71_773_xiaoxue_20250828171535645newMediaImage.txt"
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/19B1839_773_chuzhong_20250828171521929newMediaImage.txt"
       },
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
-      "key": "biliych",
-      "name": "🅱哔哔┃歌曲🅱",
+      "key": "Wexemby",
+      "name": "🀄️emby┃4K🀄️",
       "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_BiliGuard",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
+      "api": "https://d.kstore.dev/download/9280/csp_WexembyGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "Wextyso",
+      "name": "🎠给力┃天逸🎠",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WextysoGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "tianyi",
+      "name": "💓我的┃天逸💓‍",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexWo189Guard",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 50,
       "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "json": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkU9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3083f43a14e6b59f4bfe248478a3a8765b34bfdd/bilisong.txt"
+        "type": "list"
       },
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
-      "key": "Wexergeduoduo",
-      "name": "👼多多┃儿歌👼",
+      "key": "Wexbeiwa",
+      "name": "👼贝贝┃儿歌👼",
       "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexergeduoduoGuard",
+      "api": "https://d.kstore.dev/download/9280/csp_WexbeiwaGuard",
       "searchable": 1,
       "changeable": 0,
       "style": {
@@ -226,31 +370,80 @@
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
-      "key": "Iktv",
-      "name": "🎤KTV┃音乐🎤",
+      "key": "bili",
+      "name": "🅱哔哔┃合集🅱",
       "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexIktvGuard",
+      "api": "https://d.kstore.dev/download/9280/csp_BiliGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkE9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--47a8ff0e68559a89a9a75b37d09a2b0854dc5a8a/bili001.txt"
+      },
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "Wex97pansoGuard",
+      "name": "🎠九七┃综合🎠",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_Wex97pansoGuard",
       "searchable": 1,
       "changeable": 0,
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
-      "key": "瓜子看球",
-      "name": "🌐瓜子┃体育🌐",
+      "key": "夸克",
+      "name": "💓我的┃夸克💓‍",
       "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexGZsportGuard",
+      "api": "https://d.kstore.dev/download/9280/csp_WexWoquarkpanGuard",
       "searchable": 1,
-      "changeable": 0,
+      "changeable": 1,
+      "timeout": 50,
       "style": {
         "type": "list"
       },
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
-      "key": "baidu",
-      "name": "💓我的┃百度💓‍",
+      "key": "异动",
+      "name": "💓我的┃异动💓‍",
       "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexWoBaiduPanGuard",
+      "api": "https://d.kstore.dev/download/9280/csp_WexWoydpanGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 50,
+      "style": {
+        "type": "list"
+      },
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "Wexlaobaitingshu",
+      "name": "🎃‍白兔┃听书🎃",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexlaobaitingshuGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "WexLunhuiDJ",
+      "name": "🎼轮回┃舞曲🎼",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexLunhuiDJGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "WexWo123panGuard",
+      "name": "💓我的┃123💓‍",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexWo123panGuard",
       "searchable": 1,
       "changeable": 1,
       "timeout": 50,
@@ -272,40 +465,10 @@
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
-      "key": "tianyi",
-      "name": "💓我的┃天逸💓‍",
+      "key": "Wextuxiaobei",
+      "name": "👼兔兔┃儿歌👼",
       "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexWo189Guard",
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      },
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "高中教育",
-      "name": "📚高中┃课堂📚",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_BiliGuard",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/345A587_773_gaozhong_20250828171449997newMediaImage.txt"
-      },
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "Wextangdou",
-      "name": "💃跳舞┃教学💃",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WextangdouGuard",
+      "api": "https://d.kstore.dev/download/9280/csp_WextuxiaobeiGuard",
       "searchable": 1,
       "changeable": 0,
       "style": {
@@ -315,64 +478,20 @@
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
-      "key": "Wexbaobaobashi",
-      "name": "👼宝宝┃儿歌👼",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexbaobaobashiGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 2
-      },
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "xunlei",
-      "name": "💓我的┃讯蕾💓‍",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexWoXunLeiPanGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      },
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "Wexemby",
-      "name": "🀄️emby┃4K🀄️",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexembyGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "少儿教育",
-      "name": "📚少儿┃教育📚",
+      "key": "biliych",
+      "name": "🅱哔哔┃歌曲🅱",
       "type": 3,
       "api": "https://d.kstore.dev/download/9280/csp_BiliGuard",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
       "style": {
         "type": "rect",
-        "ratio": 1.597
+        "ratio": 1.433
       },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
       "ext": {
-        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/3C3AB7A_773_ertong_20250828171550247newMediaImage.txt"
+        "json": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkU9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3083f43a14e6b59f4bfe248478a3a8765b34bfdd/bilisong.txt"
       },
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "Wextyso",
-      "name": "🎠给力┃天逸🎠",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WextysoGuard",
-      "searchable": 1,
-      "changeable": 0,
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
@@ -385,138 +504,28 @@
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
-      "key": "Wex275tingshu",
-      "name": "🎃‍极品┃听书🎃",
+      "key": "新6V",
+      "name": "🛩️新6V┃P2P🛩",
       "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_Wex275tingshuGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "Wexliyuan",
-      "name": "🎎戏曲┃秒播🎎",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexliyuanGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 2
-      },
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "WexLunhuiDJ",
-      "name": "🎼轮回┃舞曲🎼",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexLunhuiDJGuard",
+      "api": "https://d.kstore.dev/download/9280/csp_WexXb6vGuard",
       "searchable": 1,
       "changeable": 0,
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
-      "key": "Wexduanjuvmp",
-      "name": "🍉短剧┃瞬播🍉",
+      "key": "Wexhanxiaoquan",
+      "name": "💥韩剧┃秒播💥",
       "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexduanjuvmpGuard",
+      "api": "https://d.kstore.dev/download/9280/csp_WexhanxiaoquanGuard",
       "searchable": 1,
       "changeable": 1,
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
-      "key": "夸克",
-      "name": "💓我的┃夸克💓‍",
+      "key": "Wexwencai",
+      "name": "🌺文才┃秒播🌺",
       "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexWoquarkpanGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      },
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "WexNewDouYu",
-      "name": "🐳斗鱼┃直播🐳",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexNewDouYuGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "AList",
-      "name": "🥇Alist┃DIY🥇",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_AListGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "bili",
-      "name": "🅱哔哔┃合集🅱",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_BiliGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "json": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkE9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--47a8ff0e68559a89a9a75b37d09a2b0854dc5a8a/bili001.txt"
-      },
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "异动",
-      "name": "💓我的┃异动💓‍",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexWoydpanGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      },
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "Wex97pansoGuard",
-      "name": "🎠九七┃综合🎠",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_Wex97pansoGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "Wexlaobaitingshu",
-      "name": "🎃‍白兔┃听书🎃",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexlaobaitingshuGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "csp_Nmys",
-      "name": "🎇伯伯┃秒播🎇",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexNmysGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "WexbttwoGuard",
-      "name": "🎇大鼻涕┃秒播🎇",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexbttwoGuard",
+      "api": "https://d.kstore.dev/download/9280/csp_WexwencaiGuard",
       "searchable": 1,
       "changeable": 1,
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
@@ -531,56 +540,10 @@
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
-      "key": "新6V",
-      "name": "🛩️新6V┃P2P🛩",
+      "key": "csp_Nmys",
+      "name": "🎇伯伯┃秒播🎇",
       "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexXb6vGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "WexkuihuatvGuard",
-      "name": "💥葵花┃影视💥",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexkuihuatvGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "Wexokconfig",
-      "name": "🐮影视专用┃配置中心🐮",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexokconfigGuard",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "WexshuangzixingGuard",
-      "name": "💓双星┃4K💓",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexshuangzixingGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "Wexhanxiaoquan",
-      "name": "💥韩剧┃秒播💥",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexhanxiaoquanGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "Wexmuougg",
-      "name": "💓木偶┃4K💓",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexmuouggGuard",
+      "api": "https://d.kstore.dev/download/9280/csp_WexNmysGuard",
       "searchable": 1,
       "changeable": 1,
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
@@ -596,28 +559,10 @@
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
-      "key": "Wexpan123ziyuanGuard",
-      "name": "💓123┃4K💓",
+      "key": "WexbttwoGuard",
+      "name": "🎇大鼻涕┃秒播🎇",
       "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_Wexpan123ziyuanGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "Wexwencai",
-      "name": "🌺文才┃秒播🌺",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexwencaiGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
-    },
-    {
-      "key": "WexhubanGuard",
-      "name": "💓虎斑┃4K💓",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/9280/csp_WexhubanGuard",
+      "api": "https://d.kstore.dev/download/9280/csp_WexbttwoGuard",
       "searchable": 1,
       "changeable": 1,
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
@@ -641,6 +586,15 @@
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
+      "key": "Wexpan123ziyuanGuard",
+      "name": "💓123┃4K💓",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_Wexpan123ziyuanGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
       "key": "Wexnullname",
       "name": "💓无名┃4K💓",
       "type": 3,
@@ -648,6 +602,24 @@
       "searchable": 1,
       "changeable": 1,
       "timeout": 120,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "WexshuangzixingGuard",
+      "name": "💓双星┃4K💓",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexshuangzixingGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "Wexmuougg",
+      "name": "💓木偶┃4K💓",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexmuouggGuard",
+      "searchable": 1,
+      "changeable": 1,
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
@@ -661,8 +633,36 @@
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
-      "key": "Doubana",
-      "name": "🐮【更新日期:20260911】🐮",
+      "key": "Wexokconfig",
+      "name": "🐮影视专用┃配置中心🐮",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexokconfigGuard",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "WexkuihuatvGuard",
+      "name": "💥葵花┃影视💥",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexkuihuatvGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "WexhubanGuard",
+      "name": "💓虎斑┃4K💓",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/9280/csp_WexhubanGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "key": "Douban",
+      "name": "🐮【免费分享】🐮",
       "type": 3,
       "api": "https://d.kstore.dev/download/9280/csp_DoubanGuard",
       "searchable": 0,
@@ -672,8 +672,8 @@
       "jar": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
     },
     {
-      "key": "Douban",
-      "name": "🐮【免费分享】🐮",
+      "key": "Doubana",
+      "name": "🐮【更新日期:20260911】🐮",
       "type": 3,
       "api": "https://d.kstore.dev/download/9280/csp_DoubanGuard",
       "searchable": 0,

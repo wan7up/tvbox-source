@@ -3,14 +3,15 @@
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "sites": [
     {
-      "key": "少儿",
-      "name": "🅱️少儿",
+      "key": "drpy_js_有声小说吧",
+      "name": "有声小说吧",
       "type": 3,
-      "api": "http://xhztv.top/xhz/csp_Bili",
+      "api": "http://xhztv.top/xhz/js/lib/drpy2.min.js",
+      "playerType": "2",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 1,
-      "ext": "http://xhztv.top/xhz/sub/少儿教育.json",
+      "filterable": 0,
+      "ext": "http://xhztv.top/xhz/js/有声小说吧.js",
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
@@ -25,25 +26,14 @@
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
-      "key": "初中",
-      "name": "🅱️初中",
+      "key": "drpy_js_JRKAN直播",
+      "name": "JRKAN直播",
       "type": 3,
-      "api": "http://xhztv.top/xhz/csp_Bili",
+      "api": "http://xhztv.top/xhz/js/lib/drpy.min.js",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 1,
-      "ext": "http://xhztv.top/xhz/sub/初中课堂.json",
-      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
-    },
-    {
-      "key": "奇优",
-      "name": "️💢奇优",
-      "type": 3,
-      "api": "http://xhztv.top/xhz/csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://xhztv.top/xhz/sub/奇优.json",
+      "filterable": 0,
+      "ext": "http://xhztv.top/xhz/js/JRKAN直播.js",
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
@@ -58,70 +48,25 @@
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
-      "key": "农民",
-      "name": "🥝农民",
-      "type": 3,
-      "api": "http://xhztv.top/xhz/csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://xhztv.top/xhz/sub/农民影视.json",
-      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
-    },
-    {
-      "key": "戏曲",
-      "name": "🅱️戏曲",
+      "key": "初中",
+      "name": "🅱️初中",
       "type": 3,
       "api": "http://xhztv.top/xhz/csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "http://xhztv.top/xhz/sub/Blixq.json",
+      "ext": "http://xhztv.top/xhz/sub/初中课堂.json",
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
-      "key": "drpy_js_JRKAN直播",
-      "name": "JRKAN直播",
-      "type": 3,
-      "api": "http://xhztv.top/xhz/js/lib/drpy.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "http://xhztv.top/xhz/js/JRKAN直播.js",
-      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
-    },
-    {
-      "key": "drpy_js_有声小说吧",
-      "name": "有声小说吧",
-      "type": 3,
-      "api": "http://xhztv.top/xhz/js/lib/drpy2.min.js",
-      "playerType": "2",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "http://xhztv.top/xhz/js/有声小说吧.js",
-      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
-    },
-    {
-      "key": "drpy_js_虎牙直播",
-      "name": "🐯虎牙直播",
-      "type": 3,
-      "api": "http://xhztv.top/xhz/js/lib/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "http://xhztv.top/xhz/js/虎牙直播.js",
-      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
-    },
-    {
-      "key": "csp_Bili",
-      "name": "🅱️哔哩哔哩",
+      "key": "少儿",
+      "name": "🅱️少儿",
       "type": 3,
       "api": "http://xhztv.top/xhz/csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "http://xhztv.top/xhz/sub/Bili.json",
+      "ext": "http://xhztv.top/xhz/sub/少儿教育.json",
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
@@ -136,29 +81,6 @@
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
-      "key": "骚火",
-      "name": "💢骚火",
-      "type": 3,
-      "api": "http://xhztv.top/xhz/csp_XBPQ",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "嗅探词": ".m3u8#.mp4#.m3u8?#freeok.mp4",
-        "分类url": "https://shdy2.com/list/{cateId}-{catePg}.html;;vr1au0",
-        "分类": "电影$1#电视剧$2#韩剧$22#美剧$23#动漫$4",
-        "数组二次截取": "class=\"v_list\">&&</ul>",
-        "数组": "\"v_img\"&&/div>",
-        "标题": "title=\"&&\"",
-        "副标题": "v_note\"&&</div",
-        "跳转播放链接": "<iframe*src=\"&&\"",
-        "二次跳转播放链接": "https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1",
-        "三次跳转播放链接": "\"url\"*\"&&\""
-      },
-      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
-    },
-    {
       "key": "相声小品",
       "name": "🅱️相声小品",
       "type": 3,
@@ -167,6 +89,84 @@
       "quickSearch": 0,
       "filterable": 1,
       "ext": "http://xhztv.top/xhz/sub/Blixs.json",
+      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "key": "戏曲",
+      "name": "🅱️戏曲",
+      "type": 3,
+      "api": "http://xhztv.top/xhz/csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "http://xhztv.top/xhz/sub/Blixq.json",
+      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "key": "csp_Bili",
+      "name": "🅱️哔哩哔哩",
+      "type": 3,
+      "api": "http://xhztv.top/xhz/csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "http://xhztv.top/xhz/sub/Bili.json",
+      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "key": "短视频",
+      "name": "☘️短视频",
+      "type": 3,
+      "api": "http://xhztv.top/xhz/csp_XBPQ",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "主页url": "http://www.sharenice.net",
+        "直接播放": "1",
+        "嗅探词": ".m3u8#m3u8?#.mp4#mp4?#ixigua#.czspp#.flv#.mp3#.m4a#?item/video#is_play_url=1#play/?#qianpailive",
+        "分类": "抖音&快手&微视&火山&场库&美拍&秒拍&全民&梨&好兔&开眼&美女&搞笑&社会&音乐&娱乐&影视&正能量&生活&动漫&萌系&美食&体育&游戏&明星&旅游&时尚",
+        "分类值": "douyin&kuaishou&weishi&huoshan&changku&meipai&miaopai&quanmin&lishipin&haotu&kaiyan&t-576O5aWz&t-5pCe56yR&t-56S+5Lya&t-6Z+z5LmQ&t-5aix5LmQ&t-5b2x6KeG&t-5q2j6IO96YeP&t-55Sf5rS7&t-5Yqo5ryr&t-6JCM57O7&t-576O6aOf&t-5L2T6IKy&t-5ri45oiP&t-5piO5pif&t-5peF5ri4&t-5pe25bCa",
+        "分类url": "http://www.sharenice.net/{cateId}?page={catePg}",
+        "二次截取": "class=\"item-box\">&&</ul>",
+        "数组": "<li&&</li>",
+        "图片": "data-original=\"&&\"",
+        "标题": "title=\"&&\"",
+        "链接": "href=\"&&\""
+      },
+      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "key": "drpy_js_虎牙直播",
+      "name": "🐯虎牙直播",
+      "type": 3,
+      "api": "http://xhztv.top/xhz/js/lib/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "http://xhztv.top/xhz/js/虎牙直播.js",
+      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "key": "农民",
+      "name": "🥝农民",
+      "type": 3,
+      "api": "http://xhztv.top/xhz/csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://xhztv.top/xhz/sub/农民影视.json",
+      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "key": "奇优",
+      "name": "️💢奇优",
+      "type": 3,
+      "api": "http://xhztv.top/xhz/csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://xhztv.top/xhz/sub/奇优.json",
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
@@ -192,26 +192,14 @@
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
-      "key": "短视频",
-      "name": "☘️短视频",
+      "key": "csp_Auete",
+      "name": "🐼奥特",
       "type": 3,
-      "api": "http://xhztv.top/xhz/csp_XBPQ",
-      "searchable": 0,
-      "quickSearch": 0,
+      "api": "http://xhztv.top/xhz/csp_Auete",
+      "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1,
-      "ext": {
-        "主页url": "http://www.sharenice.net",
-        "直接播放": "1",
-        "嗅探词": ".m3u8#m3u8?#.mp4#mp4?#ixigua#.czspp#.flv#.mp3#.m4a#?item/video#is_play_url=1#play/?#qianpailive",
-        "分类": "抖音&快手&微视&火山&场库&美拍&秒拍&全民&梨&好兔&开眼&美女&搞笑&社会&音乐&娱乐&影视&正能量&生活&动漫&萌系&美食&体育&游戏&明星&旅游&时尚",
-        "分类值": "douyin&kuaishou&weishi&huoshan&changku&meipai&miaopai&quanmin&lishipin&haotu&kaiyan&t-576O5aWz&t-5pCe56yR&t-56S+5Lya&t-6Z+z5LmQ&t-5aix5LmQ&t-5b2x6KeG&t-5q2j6IO96YeP&t-55Sf5rS7&t-5Yqo5ryr&t-6JCM57O7&t-576O6aOf&t-5L2T6IKy&t-5ri45oiP&t-5piO5pif&t-5peF5ri4&t-5pe25bCa",
-        "分类url": "http://www.sharenice.net/{cateId}?page={catePg}",
-        "二次截取": "class=\"item-box\">&&</ul>",
-        "数组": "<li&&</li>",
-        "图片": "data-original=\"&&\"",
-        "标题": "title=\"&&\"",
-        "链接": "href=\"&&\""
-      },
+      "ext": "https://auete.pro/",
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
@@ -252,62 +240,10 @@
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
-      "key": "csp_Auete",
-      "name": "🐼奥特",
+      "key": "csp_Ysj",
+      "name": "📮异世界",
       "type": 3,
-      "api": "http://xhztv.top/xhz/csp_Auete",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://auete.pro/",
-      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
-    },
-    {
-      "key": "360",
-      "name": "💘360",
-      "type": 3,
-      "api": "http://xhztv.top/xhz/csp_SP33",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
-    },
-    {
-      "key": "csp_trj",
-      "name": "🛫唐人街(墙外)",
-      "type": 3,
-      "api": "http://xhztv.top/xhz/csp_Tangrenjie",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
-    },
-    {
-      "key": "csp_DouDou",
-      "name": "🔍聚玩盒子-本接口免费-🈲贩卖",
-      "type": 3,
-      "api": "http://xhztv.top/xhz/csp_DouDou",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
-    },
-    {
-      "key": "csp_YQKan",
-      "name": "🌎一起看",
-      "type": 3,
-      "api": "http://xhztv.top/xhz/csp_YQKan",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
-    },
-    {
-      "key": "csp_Kuaikan",
-      "name": "👀快看",
-      "type": 3,
-      "api": "http://xhztv.top/xhz/csp_Kuaikan",
+      "api": "http://xhztv.top/xhz/csp_Ysj",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -334,42 +270,10 @@
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
-      "key": "酷看",
-      "name": "💡酷看",
+      "key": "PanSou",
+      "name": "📀盘搜",
       "type": 3,
-      "api": "http://xhztv.top/xhz/csp_Kkys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
-    },
-    {
-      "key": "push_agent",
-      "name": "🍭推送",
-      "type": 3,
-      "api": "http://xhztv.top/xhz/csp_Push",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd",
-      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
-    },
-    {
-      "key": "csp_Kunyu77",
-      "name": "👒酷云七七",
-      "type": 3,
-      "api": "http://xhztv.top/xhz/csp_Kunyu77",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
-    },
-    {
-      "key": "Dovx",
-      "name": "😾七夜",
-      "type": 3,
-      "api": "http://xhztv.top/xhz/csp_Dovx",
+      "api": "http://xhztv.top/xhz/csp_PanSou",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -390,14 +294,57 @@
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
-      "key": "csp_NanGua",
-      "name": "🎃南瓜",
+      "key": "骚火",
+      "name": "💢骚火",
       "type": 3,
-      "api": "http://xhztv.top/xhz/csp_NanGua",
+      "api": "http://xhztv.top/xhz/csp_XBPQ",
+      "playerType": "2",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 1,
+      "ext": {
+        "嗅探词": ".m3u8#.mp4#.m3u8?#freeok.mp4",
+        "分类url": "https://shdy2.com/list/{cateId}-{catePg}.html;;vr1au0",
+        "分类": "电影$1#电视剧$2#韩剧$22#美剧$23#动漫$4",
+        "数组二次截取": "class=\"v_list\">&&</ul>",
+        "数组": "\"v_img\"&&/div>",
+        "标题": "title=\"&&\"",
+        "副标题": "v_note\"&&</div",
+        "跳转播放链接": "<iframe*src=\"&&\"",
+        "二次跳转播放链接": "https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1",
+        "三次跳转播放链接": "\"url\"*\"&&\""
+      },
+      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "key": "push_agent",
+      "name": "🍭推送",
+      "type": 3,
+      "api": "http://xhztv.top/xhz/csp_Push",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd",
+      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "key": "csp_Nbys",
+      "name": "👑泥巴(墙外)",
+      "type": 3,
+      "api": "http://xhztv.top/xhz/csp_NiNi",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "key": "csp_trj",
+      "name": "🛫唐人街(墙外)",
+      "type": 3,
+      "api": "http://xhztv.top/xhz/csp_Tangrenjie",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
@@ -413,26 +360,92 @@
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
-      "key": "csp_Nbys",
-      "name": "👑泥巴(墙外)",
+      "key": "YiSo",
+      "name": "🆎易搜",
       "type": 3,
-      "api": "http://xhztv.top/xhz/csp_NiNi",
+      "api": "http://xhztv.top/xhz/csp_YiSo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd",
+      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "key": "Zhaozy",
+      "name": "🦊找资源",
+      "type": 3,
+      "api": "http://xhztv.top/xhz/csp_Zhaozy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$lmok37266@bazatek.com$$$Yoursmile",
+      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "key": "csp_Kunyu77",
+      "name": "👒酷云七七",
+      "type": 3,
+      "api": "http://xhztv.top/xhz/csp_Kunyu77",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
-      "key": "星奇",
-      "name": "💥星奇",
+      "key": "csp_Kuaikan",
+      "name": "👀快看",
       "type": 3,
-      "api": "http://xhztv.top/xhz/csp_AppMao",
-      "playerType": 2,
+      "api": "http://xhztv.top/xhz/csp_Kuaikan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "key": "360",
+      "name": "💘360",
+      "type": 3,
+      "api": "http://xhztv.top/xhz/csp_SP33",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "http://xhztv.top/xhz/FbjDcUxPqpfNr0QF4QvE6sExbd4UXJxJXzdL462ywU1XScGa5G6Hj0/c+Ou1GW6rdX6N2XIhnD46QzIsRoZ8bk4fG4OYi0iCaWwRj2ddkacwFqHtLjQhalHqIy0+kpiTv2eOfJYxTshgrxcJ+g3lEHx7ZLC9kB1TCfZUSHwqHB3tt6V/1OhRENIOZNRFfXVBEFd7jQg+J06kjCAF7z1Bt8hRvMjC2VcbQXsEz8MCZDgu06C9/wirWcTa/wWJsfT+Z7fXaDs+dIWMYiwf6td5CWTx6LfL6eTuiMhs2KU5Byw9F+4Y/AHBg4r+LEe+Hm4EM2d8X3ca5zHSj+kjmpXOiGDo4TalFqgTq67eggmthCbV2d131SKc03V+5gruudQQk/Tb9e4lg6SQhA9/5kWOOM/LRmkqIxSt6d0wpu7yKKh65enwKbgasc93/HnGr6W4LuZjf6eYnS2GgRzWRE0fT5lYNmxnWeRnYuLhoZbDqslAfJzg",
+      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "key": "Dovx",
+      "name": "😾七夜",
+      "type": 3,
+      "api": "http://xhztv.top/xhz/csp_Dovx",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd",
+      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "key": "csp_NanGua",
+      "name": "🎃南瓜",
+      "type": 3,
+      "api": "http://xhztv.top/xhz/csp_NanGua",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "key": "酷看",
+      "name": "💡酷看",
+      "type": 3,
+      "api": "http://xhztv.top/xhz/csp_Kkys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
@@ -446,21 +459,30 @@
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
-      "key": "Aid",
-      "name": "🚑急救教学",
+      "key": "csp_DouDou",
+      "name": "🔍聚玩盒子-本接口免费-🈲贩卖",
       "type": 3,
-      "api": "http://xhztv.top/xhz/csp_FirstAid",
+      "api": "http://xhztv.top/xhz/csp_DouDou",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0,
+      "filterable": 1,
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
-      "key": "csp_Bttwoo",
-      "name": "✌比特",
+      "key": "csp_Dm84",
+      "name": "🚌动漫巴士",
       "type": 3,
-      "api": "http://xhztv.top/xhz/csp_Bttwoo",
+      "api": "http://xhztv.top/xhz/csp_Dm84",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "key": "csp_Yj1211",
+      "name": "📽️在线直播",
+      "type": 3,
+      "api": "http://xhztv.top/xhz/csp_Yj1211",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -478,69 +500,23 @@
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
-      "key": "csp_Yj1211",
-      "name": "📽️在线直播",
+      "key": "csp_Bttwoo",
+      "name": "✌比特",
       "type": 3,
-      "api": "http://xhztv.top/xhz/csp_Yj1211",
+      "api": "http://xhztv.top/xhz/csp_Bttwoo",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
-      "key": "Zhaozy",
-      "name": "🦊找资源",
+      "key": "csp_YQKan",
+      "name": "🌎一起看",
       "type": 3,
-      "api": "http://xhztv.top/xhz/csp_Zhaozy",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$lmok37266@bazatek.com$$$Yoursmile",
-      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
-    },
-    {
-      "key": "csp_Kanqiu",
-      "name": "⚽88看球",
-      "type": 3,
-      "api": "http://xhztv.top/xhz/csp_Kanqiu",
+      "api": "http://xhztv.top/xhz/csp_YQKan",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 0,
-      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
-    },
-    {
-      "key": "csp_Ysj",
-      "name": "📮异世界",
-      "type": 3,
-      "api": "http://xhztv.top/xhz/csp_Ysj",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
-    },
-    {
-      "key": "csp_Jianpian",
-      "name": "🧲荐片",
-      "type": 3,
-      "api": "http://xhztv.top/xhz/csp_Jianpian",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://api2.rinhome.com",
-      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
-    },
-    {
-      "key": "PanSou",
-      "name": "📀盘搜",
-      "type": 3,
-      "api": "http://xhztv.top/xhz/csp_PanSou",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd",
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
@@ -556,25 +532,25 @@
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
-      "key": "csp_Dm84",
-      "name": "🚌动漫巴士",
+      "key": "csp_Kanqiu",
+      "name": "⚽88看球",
       "type": 3,
-      "api": "http://xhztv.top/xhz/csp_Dm84",
+      "api": "http://xhztv.top/xhz/csp_Kanqiu",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
+      "changeable": 0,
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
-      "key": "YiSo",
-      "name": "🆎易搜",
+      "key": "Aid",
+      "name": "🚑急救教学",
       "type": 3,
-      "api": "http://xhztv.top/xhz/csp_YiSo",
-      "searchable": 1,
-      "quickSearch": 1,
+      "api": "http://xhztv.top/xhz/csp_FirstAid",
+      "searchable": 0,
+      "quickSearch": 0,
       "filterable": 0,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd",
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
@@ -587,6 +563,19 @@
       "filterable": 1,
       "changeable": 1,
       "ext": "http://aiduanju.vip/",
+      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "key": "星奇",
+      "name": "💥星奇",
+      "type": 3,
+      "api": "http://xhztv.top/xhz/csp_AppMao",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "http://xhztv.top/xhz/FbjDcUxPqpfNr0QF4QvE6sExbd4UXJxJXzdL462ywU1XScGa5G6Hj0/c+Ou1GW6rdX6N2XIhnD46QzIsRoZ8bk4fG4OYi0iCaWwRj2ddkacwFqHtLjQhalHqIy0+kpiTv2eOfJYxTshgrxcJ+g3lEHx7ZLC9kB1TCfZUSHwqHB3tt6V/1OhRENIOZNRFfXVBEFd7jQg+J06kjCAF7z1Bt8hRvMjC2VcbQXsEz8MCZDgu06C9/wirWcTa/wWJsfT+Z7fXaDs+dIWMYiwf6td5CWTx6LfL6eTuiMhs2KU5Byw9F+4Y/AHBg4r+LEe+Hm4EM2d8X3ca5zHSj+kjmpXOiGDo4TalFqgTq67eggmthCbV2d131SKc03V+5gruudQQk/Tb9e4lg6SQhA9/5kWOOM/LRmkqIxSt6d0wpu7yKKh65enwKbgasc93/HnGr6W4LuZjf6eYnS2GgRzWRE0fT5lYNmxnWeRnYuLhoZbDqslAfJzg",
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
@@ -603,17 +592,6 @@
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {
-      "key": "csp_Czsapp",
-      "name": "🏭厂长",
-      "type": 3,
-      "api": "http://xhztv.top/xhz/csp_Czsapp",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://www.czzy55.com/",
-      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
-    },
-    {
       "key": "萌米",
       "name": "👀萌米",
       "type": 3,
@@ -623,6 +601,28 @@
       "filterable": 1,
       "changeable": 0,
       "ext": "http://xhztv.top/xhz/FbjDcUxPqpfNr0QF4QvEpcoxMMdAA5wQTClJt+Hxgw4VXJLfrTSRjQjA6r70U2ONX3iG4lQWk1cgXQMSUZpbUzIYJ6iQs3+gcUVDp1lz6rcrGqDtCW4hfAf9JSR025m0+TGWMsZkVg==",
+      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "key": "csp_Jianpian",
+      "name": "🧲荐片",
+      "type": 3,
+      "api": "http://xhztv.top/xhz/csp_Jianpian",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://api2.rinhome.com",
+      "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "key": "csp_Czsapp",
+      "name": "🏭厂长",
+      "type": 3,
+      "api": "http://xhztv.top/xhz/csp_Czsapp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://www.czzy55.com/",
       "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
     },
     {

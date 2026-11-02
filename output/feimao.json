@@ -5,34 +5,6 @@
   "logo": "http://w.junce.dpdns.org/fm.gif",
   "sites": [
     {
-      "key": "厂长",
-      "name": "🏭┃厂长┃影视",
-      "type": 3,
-      "playerType": "2",
-      "api": "http://xn--z7x900a.net/csp_Czsapp",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://cz01.vip",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
-    },
-    {
-      "key": "csp_少儿",
-      "name": "📚┃少儿┃教育",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_Bili",
-      "playerType": 2,
-      "ext": {
-        "json": "https://img2.gelonghui.com/library/1903b-eb0f1675-2437-4e72-bcf0-427b1626d79fnull",
-        "cookie": ""
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      },
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
-    },
-    {
       "key": "csp_高中",
       "name": "📚┃高中┃课堂",
       "type": 3,
@@ -65,6 +37,14 @@
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
+      "key": "csp_PanSearch",
+      "name": "🚃┃盘搜┃网盘",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_PanSearch",
+      "ext": "http://127.0.0.1:9978/file/fatcat/token.txt",
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
+    },
+    {
       "key": "csp_小学",
       "name": "📚┃小学┃课堂",
       "type": 3,
@@ -81,50 +61,47 @@
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
-      "key": "方舟",
-      "name": "🐷┃方舟┃动漫",
+      "key": "厂长",
+      "name": "🏭┃厂长┃影视",
       "type": 3,
-      "api": "http://xn--z7x900a.net/csp_AppGet",
-      "ext": "https://www.cyfz.top|e72cdfd629e8895d",
+      "playerType": "2",
+      "api": "http://xn--z7x900a.net/csp_Czsapp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://cz01.vip",
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
-      "key": "csp_Gz360",
-      "name": "🍉┃瓜子┃影视",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_Gz360",
-      "playerType": 2,
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
-    },
-    {
-      "key": "csp_PanSearch",
-      "name": "🚃┃盘搜┃网盘",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_PanSearch",
-      "ext": "http://127.0.0.1:9978/file/fatcat/token.txt",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
-    },
-    {
-      "key": "csp_SP360",
-      "name": "📺┃360┃官源",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_SP360",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
-    },
-    {
-      "key": "csp_Bili",
-      "name": "🅱┃️哔哩┃合集",
+      "key": "csp_少儿",
+      "name": "📚┃少儿┃教育",
       "type": 3,
       "api": "http://xn--z7x900a.net/csp_Bili",
       "playerType": 2,
       "ext": {
-        "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt",
+        "json": "https://img2.gelonghui.com/library/1903b-eb0f1675-2437-4e72-bcf0-427b1626d79fnull",
         "cookie": ""
       },
       "style": {
         "type": "rect",
         "ratio": 1.333
       },
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
+    },
+    {
+      "key": "米搜",
+      "name": "🌖┃米搜┃网盘",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_MiSou",
+      "ext": "http://127.0.0.1:9978/file/fatcat/kk.txt",
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
+    },
+    {
+      "key": "方舟",
+      "name": "🐷┃方舟┃动漫",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_AppGet",
+      "ext": "https://www.cyfz.top|e72cdfd629e8895d",
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
@@ -144,19 +121,33 @@
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
-      "key": "番薯",
-      "name": "🍠┃番薯┃动漫",
+      "key": "MTV",
+      "name": "🎧┃明星┃MV",
       "type": 3,
-      "api": "http://xn--z7x900a.net/csp_AppGet",
-      "ext": "https://app.omofun1.top|66dc309cbeeca454",
+      "api": "http://xn--z7x900a.net/csp_Bili",
+      "playerType": 2,
+      "ext": {
+        "json": "https://img2.gelonghui.com/library/2b4eb-8fb08a6b-f9f1-48d8-816a-1bc712a85fefnull",
+        "cookie": ""
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      },
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
-      "key": "米搜",
-      "name": "🌖┃米搜┃网盘",
+      "key": "csp_FirstAid",
+      "name": "🚑┃急救┃教学",
       "type": 3,
-      "api": "http://xn--z7x900a.net/csp_MiSou",
-      "ext": "http://127.0.0.1:9978/file/fatcat/kk.txt",
+      "api": "http://xn--z7x900a.net/csp_FirstAid",
+      "searchable": 0,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 3.8
+      },
+      "gridview": "0-0-4.1",
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
@@ -191,13 +182,21 @@
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
-      "key": "MTV",
-      "name": "🎧┃明星┃MV",
+      "key": "番薯",
+      "name": "🍠┃番薯┃动漫",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_AppGet",
+      "ext": "https://app.omofun1.top|66dc309cbeeca454",
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
+    },
+    {
+      "key": "csp_Bili",
+      "name": "🅱┃️哔哩┃合集",
       "type": 3,
       "api": "http://xn--z7x900a.net/csp_Bili",
       "playerType": 2,
       "ext": {
-        "json": "https://img2.gelonghui.com/library/2b4eb-8fb08a6b-f9f1-48d8-816a-1bc712a85fefnull",
+        "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt",
         "cookie": ""
       },
       "style": {
@@ -207,32 +206,18 @@
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
-      "key": "csp_FirstAid",
-      "name": "🚑┃急救┃教学",
+      "key": "csp_Gz360",
+      "name": "🍉┃瓜子┃影视",
       "type": 3,
-      "api": "http://xn--z7x900a.net/csp_FirstAid",
-      "searchable": 0,
-      "quickSearch": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 3.8
-      },
-      "gridview": "0-0-4.1",
+      "api": "http://xn--z7x900a.net/csp_Gz360",
+      "playerType": 2,
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
-      "key": "韩圈",
-      "name": "⭕┃韩圈 ┃APP",
+      "key": "csp_SP360",
+      "name": "📺┃360┃官源",
       "type": 3,
-      "api": "http://xn--z7x900a.net/csp_Hxq",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
-    },
-    {
-      "key": "光盘",
-      "name": "📀┃光盘┃APP",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_AppQi",
-      "ext": "http://103.217.190.91:5566|hagYExMdMkeWfemK",
+      "api": "http://xn--z7x900a.net/csp_SP360",
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
@@ -254,22 +239,39 @@
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
-      "key": "csp_FeiMaoUC",
-      "name": "⚡┃闪电┃优汐",
+      "key": "行动",
+      "name": "😌┃行动┃APP",
       "type": 3,
-      "api": "http://xn--z7x900a.net/csp_Duopan",
-      "filterable": 1,
+      "api": "http://xn--z7x900a.net/csp_AppDrama2",
       "ext": {
-        "site_urls": [
-          "http://shandian.blog/",
-          "http://sd.sduc.site/"
-        ],
-        "threadinfo": {
-          "chunksize": 512,
-          "threads": 16
-        },
-        "url_key": "FeiMaoUC"
+        "appName": "华谊",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+        "dataKey": "V04XQZNYRWN6T0JODZFIAG5CTZB3PT0=",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.lxf.sncgtzxyx",
+        "host": "",
+        "site": "https://1851089669.cdn.123clouddisk.com/1851089669/44107727",
+        "version": "6.0.0.1",
+        "decrypt": "1"
       },
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
+    },
+    {
+      "key": "光盘",
+      "name": "📀┃光盘┃APP",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_AppQi",
+      "ext": "http://103.217.190.91:5566|hagYExMdMkeWfemK",
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
+    },
+    {
+      "key": "咕噜",
+      "name": "🕊┃︎咕噜┃APP",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_Gulu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
@@ -291,13 +293,12 @@
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
-      "key": "咕噜",
-      "name": "🕊┃︎咕噜┃APP",
+      "key": "csp_Dm84",
+      "name": "🤣┃动漫┃巴士",
       "type": 3,
-      "api": "http://xn--z7x900a.net/csp_Gulu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "playerType": "2",
+      "api": "http://xn--z7x900a.net/csp_Dm84",
+      "ext": "https://dm84.net",
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
@@ -306,34 +307,6 @@
       "type": 3,
       "api": "http://xn--z7x900a.net/csp_Config",
       "playerType": 2,
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
-    },
-    {
-      "key": "行动",
-      "name": "😌┃行动┃APP",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_AppDrama2",
-      "ext": {
-        "appName": "华谊",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-        "dataKey": "V04XQZNYRWN6T0JODZFIAG5CTZB3PT0=",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.lxf.sncgtzxyx",
-        "host": "",
-        "site": "https://1851089669.cdn.123clouddisk.com/1851089669/44107727",
-        "version": "6.0.0.1",
-        "decrypt": "1"
-      },
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
-    },
-    {
-      "key": "一起",
-      "name": "👀┃一起┃APP",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_AppYQK",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
@@ -355,20 +328,13 @@
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
-      "key": "豆瓣预告",
-      "name": "🐼┃豆瓣┃预告",
+      "key": "一起",
+      "name": "👀┃一起┃APP",
       "type": 3,
-      "api": "http://xn--z7x900a.net/csp_YGP",
-      "playerType": 2,
-      "searchable": 0,
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
-    },
-    {
-      "key": "豆瓣",
-      "name": "🐼┃QQ频道：肥猫宝贝┃",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_Douban",
-      "searchable": 0,
+      "api": "http://xn--z7x900a.net/csp_AppYQK",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
@@ -399,29 +365,55 @@
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
+      "key": "豆瓣",
+      "name": "🐼┃QQ频道：肥猫宝贝┃",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_Douban",
+      "searchable": 0,
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
+    },
+    {
+      "key": "csp_FeiMaoUC",
+      "name": "⚡┃闪电┃优汐",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_Duopan",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://shandian.blog/",
+          "http://sd.sduc.site/"
+        ],
+        "threadinfo": {
+          "chunksize": 512,
+          "threads": 16
+        },
+        "url_key": "FeiMaoUC"
+      },
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
+    },
+    {
+      "key": "豆瓣预告",
+      "name": "🐼┃豆瓣┃预告",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_YGP",
+      "playerType": 2,
+      "searchable": 0,
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
+    },
+    {
+      "key": "韩圈",
+      "name": "⭕┃韩圈 ┃APP",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/csp_Hxq",
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
+    },
+    {
       "key": "csp_SaoHuo",
       "name": "🔥┃火火┃影视",
       "type": 3,
       "api": "http://xn--z7x900a.net/csp_SaoHuo",
       "playerType": 2,
       "ext": "https://shdy5.us",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
-    },
-    {
-      "key": "csp_Dm84",
-      "name": "🤣┃动漫┃巴士",
-      "type": 3,
-      "playerType": "2",
-      "api": "http://xn--z7x900a.net/csp_Dm84",
-      "ext": "https://dm84.net",
-      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
-    },
-    {
-      "key": "csp_Jpys",
-      "name": "🥇️┃金牌┃影视",
-      "type": 3,
-      "api": "http://xn--z7x900a.net/csp_Jpys",
-      "ext": "https://y2s52n7.com",
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
@@ -442,11 +434,11 @@
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
-      "key": "肥猫",
-      "name": "🐼┃肥猫┃APP",
+      "key": "csp_Jpys",
+      "name": "🥇️┃金牌┃影视",
       "type": 3,
-      "api": "http://xn--z7x900a.net/csp_AppQi",
-      "ext": "https://lanyingjisu.oss-cn-wuhan-lr.aliyuncs.com/lyjszx.txt|oW5UxZ5kWVr1DI69",
+      "api": "http://xn--z7x900a.net/csp_Jpys",
+      "ext": "https://y2s52n7.com",
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
@@ -458,18 +450,11 @@
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
-      "key": "儿童",
-      "name": "📚┃儿童┃启蒙",
+      "key": "肥猫",
+      "name": "🐼┃肥猫┃APP",
       "type": 3,
-      "api": "http://xn--z7x900a.net/api/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "http://xn--z7x900a.net/js/兔小贝.js",
+      "api": "http://xn--z7x900a.net/csp_AppQi",
+      "ext": "https://lanyingjisu.oss-cn-wuhan-lr.aliyuncs.com/lyjszx.txt|oW5UxZ5kWVr1DI69",
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
@@ -497,6 +482,21 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "http://xn--z7x900a.net/game",
+      "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
+    },
+    {
+      "key": "儿童",
+      "name": "📚┃儿童┃启蒙",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/api/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "ext": "http://xn--z7x900a.net/js/兔小贝.js",
       "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
     }
   ],
