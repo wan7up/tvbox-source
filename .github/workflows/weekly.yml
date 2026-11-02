@@ -29,19 +29,22 @@ jobs:
           import re
           p = 'miraplay/index.js'
           src = open(p, encoding='utf-8', errors='ignore').read()
-          old = ".map(o=>set.has(o.meta.key)?{...o,meta:{...o.meta,hidden:!0}}:o)"
-          new = ".map(o=>(set.has(o.meta.key)||o.meta.name.includes(\"「盘」\"))?{...o,meta:{...o.meta,hidden:!0}}:o)"
-          # 如果已经是补丁版，先还原再打，避免重复
-          if new in src:
+          # 补丁已打过的标记
+          patched_marker = '||o.meta.name.includes("「盘」")'
+          if patched_marker in src:
               print("补丁已存在，跳过")
-          elif old in src:
-              assert src.count(old) == 1, f"匹配到 {src.count(old)} 处，预期 1 处"
+          else:
+              # 锚点：].map(o=><var>.has(o.meta.key)?{...o,meta:{...o.meta,hidden:!0}}:o)
+              # <var> 是混淆后的变量名，每次上游构建都可能变（如 set -> Aet），用正则匹配
+              pat = r"\.map\(o=>(\w+)\.has\(o\.meta\.key\)\?\{...o,meta:\{...o\.meta,hidden:!0\}\}:o\)"
+              ms = list(re.finditer(pat, src))
+              assert len(ms) == 1, f"锚点匹配到 {len(ms)} 处，预期 1 处；douer 结构可能变了，需人工检查"
+              var = ms[0].group(1)
+              old = ms[0].group(0)
+              new = '.map(o=>(' + var + '.has(o.meta.key)||o.meta.name.includes("「盘」"))?{...o,meta:{...o.meta,hidden:!0}}:o)'
               src = src.replace(old, new)
               open(p, 'w', encoding='utf-8').write(src)
-              print("补丁已应用")
-          else:
-              print("警告：未找到补丁锚点，douer 结构可能变了，需人工检查")
-              exit(1)
+              print(f"补丁已应用（变量名 {var}）")
           PYEOF
 
       - name: Syntax check and rebuild md5
