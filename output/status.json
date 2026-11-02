@@ -1,6 +1,58 @@
 {
   "mode": "curated",
   "site_count": 27,
-  "cms_count": 15,
-  "spider_count": 12
+  "alive": 11,
+  "dead": [
+    {
+      "key": "csp_TaoPian",
+      "url": "https://taopianapi.com/api.php/provide/vod/?ac=videolist&pg=1"
+    },
+    {
+      "key": "csp_BaiDu",
+      "url": "https://api.apibdzy.com/api.php/provide/vod/?ac=videolist&pg=1"
+    },
+    {
+      "key": "csp_HuYa",
+      "url": "https://hyzyapi.com/api.php/provide/vod/?ac=videolist&pg=1"
+    },
+    {
+      "key": "csp_GuangSu",
+      "url": "https://gszyapi.com/api.php/provide/vod/?ac=videolist&pg=1"
+    },
+    {
+      "key": "csp_HongNiu",
+      "url": "https://hnzyapi.com/api.php/provide/vod/?ac=videolist&pg=1"
+    },
+    {
+      "key": "csp_XinLang",
+      "url": "https://sinaapi.com/api.php/provide/vod/?ac=videolist&pg=1"
+    },
+    {
+      "key": "瓜子影视",
+      "url": "http://我不是.摸鱼儿.top/by/jar/moyuer.php"
+    },
+    {
+      "key": "drpy_js_大师兄影视",
+      "url": "https://cdn.jsdelivr.net/gh/yxcqr/DZDRPY@main/js/大师兄影视.js"
+    },
+    {
+      "key": "独播库",
+      "url": "https://github.com/takagen99/channel/raw/master/CATVOD/main/duboku.json"
+    },
+    {
+      "key": "csp_biubiu_次元城",
+      "url": "https://freed.yuanhsing.cf/TVBox/MaooXB2/次元城.json"
+    },
+    {
+      "key": "drpy_js_咕噜",
+      "url": "https://cdn.jsdelivr.net/gh/Yushao88/tvbox@master/js/咕噜[V2].js"
+    }
+  ],
+  "unknown": [
+    "星芽短剧",
+    "韩小圈",
+    "csp_Dm84",
+    "Tg_豆瓣",
+    "红果短剧"
+  ]
 }
