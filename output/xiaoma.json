@@ -4,6 +4,14 @@
   "logo": "https://szyyds.cn/1.png",
   "sites": [
     {
+      "key": "光速资源",
+      "name": "光速资源(切)",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
       "key": "秒看",
       "name": "秒看",
       "type": 3,
@@ -19,28 +27,6 @@
       }
     },
     {
-      "key": "还行",
-      "name": "还行",
-      "jar": "https://xiuxiu-pro.meitudata.com/posters/5199d8f8bcbe3c6d6938ded33cb90596.png",
-      "type": 3,
-      "api": "https://szyyds.cn/tv/csp_AppYs",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": "http://m51.gotto.top/api.php/v1.vod"
-    },
-    {
-      "key": "新6V",
-      "name": "🧲新6V┃磁力",
-      "type": 3,
-      "api": "https://szyyds.cn/tv/csp_SixVGuard",
-      "timeout": 10,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "https://www.xb6v.com/",
-      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
-    },
-    {
       "key": "新浪资源",
       "name": "新浪资源(切)",
       "type": 1,
@@ -49,68 +35,456 @@
       "quickSearch": 1
     },
     {
-      "key": "huban",
-      "name": "弹幕|小窗",
+      "key": "看球",
+      "name": "⚽手机┃看球",
       "type": 3,
-      "jar": "https://gitee.com/zj521jj/little-tiger-spot/raw/master/jar/HubanTC.jar",
-      "api": "https://szyyds.cn/tv/csp_Huban"
+      "api": "https://szyyds.cn/tv/csp_KanqiuGuard",
+      "timeout": 10,
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      },
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
     },
     {
-      "key": "光速资源",
-      "name": "光速资源(切)",
-      "type": 1,
-      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+      "key": "比特",
+      "name": "🍄比特┃秒播",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_BttwooGuard",
+      "timeout": 10,
       "searchable": 1,
-      "quickSearch": 1
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
     },
     {
-      "key": "建安采集",
-      "name": "影视 | 建安",
-      "type": 1,
-      "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
+      "key": "Bili",
+      "name": "🅱哔哔合集┃弹幕",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://szyyds.cn/tv/jx/bilibiliheji.txt"
+      },
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "Biliych",
+      "name": "🅱哔哔演唱会┃弹幕",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://szyyds.cn/tv/jx/bilibiliyanchang.txt"
+      },
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "Aid",
+      "name": "🚑急救┃教学",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_FirstAidGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 3.8
+      },
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "厂长",
+      "name": "📔厂长┃秒播",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_NewCzGuard",
+      "timeout": 10,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "88",
+      "name": "⚽八八┃看球",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_Sir88Guard",
+      "timeout": 10,
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      },
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "dr_兔小贝",
+      "name": "📚儿童┃启蒙",
+      "type": 3,
+      "api": "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+      "ext": "https://szyyds.cn/tv/jx/兔小贝.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "文采",
+      "name": "💮文采┃秒播",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_JpysGuard",
+      "timeout": 10,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "原创",
+      "name": "☀原创┃秒播",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_YCyzGuard",
+      "timeout": 15,
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "超全",
+      "name": "⚽吃瓜┃看球",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_LiveGzGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      },
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "MTV",
+      "name": "🎶明星┃MV",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://szyyds.cn/tv/jx/mingxing.txt"
+      },
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "奥特",
+      "name": "奥特┃多线",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_AueteGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "荐片",
+      "name": "🐭荐片┃P2P",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_JPJGuard",
+      "timeout": 10,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "糯米",
+      "name": "🍓糯米┃多线",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_NmyswvGuard",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "小学课堂",
+      "name": "📚小学┃课堂",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://szyyds.cn/tv/jx/xiaoxue.txt"
+      },
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "YGP",
+      "name": "🚀叨观荐影┃预告片",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_YGPGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "少儿教育",
+      "name": "📚少儿┃教育",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://szyyds.cn/tv/jx/shaoer.txt"
+      },
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "dbokutv_key",
+      "name": "🐼｜独播库",
+      "type": 3,
+      "api": "https://files.catbox.moe/gd1tos.js",
       "style": {
         "type": "rect",
         "ratio": 1.33
       },
+      "changeable": 1,
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "AQY",
+      "name": "爱奇艺",
+      "type": 3,
+      "api": "https://szyyds.cn/js/6F02.js",
+      "ext": "https://szyyds.cn/js/3c16.js",
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "玩偶",
+      "name": "👽玩偶哥哥┃4K弹幕",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_WoGGGuard",
+      "timeout": 30,
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt"
+      },
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "MTV1",
+      "name": "🎙️易听音乐┃带歌词",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_MusicGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1
+      },
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "DouBan",
+      "name": "免费分享",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_DouDouGuard",
+      "indexs": 1,
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "Anime1",
+      "name": "🐾日本┃动漫",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_Anime1Guard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1,
-      "playerType": 2
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
     },
     {
-      "key": "红牛资源",
-      "name": "红牛资源(切)",
-      "type": 1,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
+      "key": "TX",
+      "name": "腾讯视频",
+      "type": 3,
+      "api": "https://szyyds.cn/js/6F02.js",
+      "ext": "https://szyyds.cn/js/7294.js",
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
     },
     {
-      "key": "百度",
-      "name": "百度",
-      "type": 1,
-      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
+      "key": "Dm84",
+      "name": "🚌巴士┃动漫",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_Dm84Guard",
+      "timeout": 10,
       "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "我的云盘",
+      "name": "🗂我的云盘┃我配置",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_MyDriveGuard",
+      "changeable": 0,
+      "indexs": 0,
+      "searchable": 1,
+      "style": {
+        "type": "oval"
+      },
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt"
+      },
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "应用商店",
+      "name": "应用商店",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_Market",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "https://szyyds.cn/js/app.json",
+      "jar": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/custom_spider.jar"
+    },
+    {
+      "key": "YK",
+      "name": "优酷视频",
+      "type": 3,
+      "api": "https://szyyds.cn/js/6F02.js",
+      "ext": "https://szyyds.cn/js/8aae.js",
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "高中教育",
+      "name": "📚高中┃课堂",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://szyyds.cn/tv/jx/gaozhong.txt"
+      },
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "csp_AListGuard",
+      "name": "AList",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_AweSomeGuard",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      },
+      "ext": {
+        "sp": "AList",
+        "json": "file://TV/alist.json"
+      },
+      "timeout": 15,
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "初中课堂",
+      "name": "📚初中┃课堂",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://szyyds.cn/tv/jx/chuzhong.txt"
+      },
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "push_agent",
+      "name": "手机┃推送",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_AweSomeGuard",
+      "searchable": 0,
       "filterable": 0,
-      "categories": [
-        "国产动漫",
-        "日韩动漫",
-        "大陆剧",
-        "欧美剧",
-        "韩剧",
-        "日剧",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片"
-      ],
-      "header": {
-        "User-Agent": "Mozilla/5.0"
-      }
+      "changeable": 0,
+      "ext": {
+        "sp": "Push"
+      },
+      "timeout": 25,
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "MG",
+      "name": "芒果TV",
+      "type": 3,
+      "api": "https://szyyds.cn/js/6F02.js",
+      "ext": "https://szyyds.cn/js/930ec.js",
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "还行",
+      "name": "还行",
+      "jar": "https://xiuxiu-pro.meitudata.com/posters/5199d8f8bcbe3c6d6938ded33cb90596.png",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_AppYs",
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": "http://m51.gotto.top/api.php/v1.vod"
     },
     {
       "key": "极速资源",
@@ -156,6 +530,26 @@
       }
     },
     {
+      "key": "新6V",
+      "name": "🧲新6V┃磁力",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_SixVGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "https://www.xb6v.com/",
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "红牛资源",
+      "name": "红牛资源(切)",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
       "key": "暴風",
       "name": "影视 | 暴風[直连]",
       "type": 1,
@@ -164,14 +558,165 @@
       "changeable": 1
     },
     {
-      "key": "应用商店",
-      "name": "应用商店",
+      "key": "量子资源",
+      "name": "量子资源(切)",
+      "type": 1,
+      "api": "http://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "热播",
+      "name": "📺热播┃多线",
       "type": 3,
-      "api": "https://szyyds.cn/tv/csp_Market",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "https://szyyds.cn/js/app.json",
-      "jar": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/custom_spider.jar"
+      "api": "https://szyyds.cn/tv/csp_AppTTGuard",
+      "timeout": 10,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://szyyds.cn/tv/uqGL1bNENExT7/hGxpSE5qU=",
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "猫猫",
+      "name": "🐟猫猫┃多线",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://szyyds.cn/tv/rfOX1voDIQhH8epBwpmIsuSjpyyamoq83jM9L4r3AlwEM1kc4mV87aNKLeF/iNNL7ne1LNZlk3Bz8A==",
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "视界",
+      "name": "🍙视界┃多线",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://szyyds.cn/tv/rfOX1voDIQhH8epBwpmIsuSjpyyamoq83jM9L4r3AlwEM1kc4mV87aNKLeF/iNNL7ne1LNZlk3Bz8A==",
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "光影",
+      "name": "🌞光影┃多线",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://szyyds.cn/tv/rfOb1uAWbkRHp7hdxprG9un3+TDC2t/rlTwlcMr+ChdbeV8Q9y9xsKxqfbtO0M05tGWcacFVm2c45jhyH6t1Rt6A6PjICGqxV+uN1uOqS2/x0Vp5J0Vfo8usQADpHg==",
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "爱影",
+      "name": "👀爱影┃多线",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://szyyds.cn/tv/rfOb1uAWbkRHp7hdxprG9un3+TbK3c790iI/b5LtEhxNfAQK7DRvrLcqbf1Q0MQntXLZfMhK0Xsn6nwmF+shR8eZ76qXW3y9XKbblunmCSPux0YtJlscp9zpDmW7Ju4ufOtv+BcyBX7VWrSzyUWoVcxGhUtv",
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "花花",
+      "name": "🥝花花┃多线",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://szyyds.cn/tv/rfOb1uAWbkRHp7hdxprG9un3+TbEn4q2l2kibom2DB9cJ0IB72Vu7apib64Gl9Ew6WDTJcIVzWsluDxqEaBqWIyM77GBXCPqCPmCyOr3RGfwjlsjchkArMHzTFT1VY9QUooz8m8BXA2mSa/whkG7SpZP100qUm6hMmTjm8YQQ51m6mxEE7hhEK1eNQ==",
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "播客",
+      "name": "🦊播客┃多线",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://szyyds.cn/tv/rfOb1uAWbkRHp7hdxprG9un3+SPC3Nbv1SI/b5LtAUhbYkFU/DFvsLBvd/oV3cA4uGiCZNFRz3ln6nh5Q+AgDZiM5KrCAiO7S7SVzv31EG78jVB4JEMNrMPzTgWqRZdMTdR1smBWWwru",
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "剧圈",
+      "name": "🐻剧圈┃多线",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://szyyds.cn/tv/rfOX1voDIQhH8epBwpmIsuSluiuZl4+/lm1iJsy3HwNWMxpf9CY77fshI+kByoxy7DyPatUZ1jk0ty1p",
+      "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "量子",
+      "name": "影视 | 量子[直连]",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "香港剧",
+        "韩国剧",
+        "欧美剧",
+        "记录片",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "泰国剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫"
+      ]
+    },
+    {
+      "key": "建安采集",
+      "name": "影视 | 建安",
+      "type": 1,
+      "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "huban",
+      "name": "弹幕|小窗",
+      "type": 3,
+      "jar": "https://gitee.com/zj521jj/little-tiger-spot/raw/master/jar/HubanTC.jar",
+      "api": "https://szyyds.cn/tv/csp_Huban"
     }
   ],
   "parses": [

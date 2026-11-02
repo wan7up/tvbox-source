@@ -16,31 +16,15 @@
       "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1707044072121/fan.txt;md5;c3e8c08b4cd6f7fd0f868ea48dd42cb2"
     },
     {
-      "key": "csp_Mp4Mov",
-      "name": "🧲┃Mp4┃4k",
+      "key": "csp_Nmys",
+      "name": "🌾┃农民┃直连",
       "type": 3,
-      "api": "http://xhztv.top/csp_Mp4Mov",
+      "api": "http://xhztv.top/csp_Nmys",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "jar": "https://agit.ai/guot54/ygbh/raw/branch/master/JAR/83.jar"
-    },
-    {
-      "key": "drpy_js_豆瓣",
-      "name": "🔥聚玩盒子4K",
-      "type": 3,
-      "api": "https://jihulab.com/yydfys/yydf/-/raw/main/yydf/lib/drpy2.min.js",
-      "ext": "https://jihulab.com/yydfys/yydf/-/raw/main/yydf/lib/douban.js",
+      "changeable": 1,
+      "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/nmys.json",
       "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1707044072121/fan.txt;md5;c3e8c08b4cd6f7fd0f868ea48dd42cb2"
-    },
-    {
-      "key": "csp_SixV",
-      "name": "💕┃磁力┃4K",
-      "type": 3,
-      "api": "http://xhztv.top/csp_SixV",
-      "searchable": 1,
-      "ext": "https://www.6vdy.org/",
-      "jar": "https://github.moeyy.xyz/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;64690215b0987464819e01f94be0251c"
     },
     {
       "key": "csp_SeedHub",
@@ -54,46 +38,23 @@
       "jar": "https://agit.ai/guot54/ygbh/raw/branch/master/JAR/83.jar"
     },
     {
-      "key": "fok",
-      "name": "🌙┃夸克┃影视",
+      "key": "csp_Mp4Mov",
+      "name": "🧲┃Mp4┃4k",
       "type": 3,
-      "api": "http://xhztv.top/csp_XBPQ",
-      "jar": "https://jihulab.com/xiaohutx/meisha/-/raw/main/1.jar;md5;bb155c3f0133bbce4756ad52003f5968",
-      "ext": {
-        "分类url": "https://www.freeok.vip/vod-show/{cateId}-{area}-------{catePg}---{year}.html",
-        "分类": "FREE电影&FREE剧集&FREE动漫&FREE综艺&FREE短剧&FREE少儿",
-        "分类值": "1&2&3&4&12&5",
-        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
-        "副标题": "<div class=\"module-item-note\">&&</div>",
-        "嗅探词": "m3u8#.m3u8#.mp4#freeok.mp4#/obj/",
-        "线路数组": "data-dropdown-value=&&</div>[不包含:夸克]",
-        "线路标题": "<span>&&</small>",
-        "导演": "导演：&&</div>",
-        "主演": "主演：&&</div>",
-        "简介": "<p>&&</p>"
-      }
-    },
-    {
-      "key": "csp_Nmys",
-      "name": "🌾┃农民┃直连",
-      "type": 3,
-      "api": "http://xhztv.top/csp_Nmys",
+      "api": "http://xhztv.top/csp_Mp4Mov",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/nmys.json",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1707044072121/fan.txt;md5;c3e8c08b4cd6f7fd0f868ea48dd42cb2"
+      "filterable": 1,
+      "jar": "https://agit.ai/guot54/ygbh/raw/branch/master/JAR/83.jar"
     },
     {
-      "key": "阿里云盘登录",
-      "name": "🐲阿里┃云盘登录",
+      "key": "csp_SixV",
+      "name": "💕┃磁力┃4K",
       "type": 3,
-      "api": "http://xhztv.top/csp_AliYunPan",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt",
-      "jar": "http://tv.nxog.top/m/jar.php?id=ou;md5;34c50af4380beab4dbfeae6c9b41939b"
+      "api": "http://xhztv.top/csp_SixV",
+      "searchable": 1,
+      "ext": "https://www.6vdy.org/",
+      "jar": "https://github.moeyy.xyz/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;64690215b0987464819e01f94be0251c"
     },
     {
       "key": "push_agent",
@@ -108,21 +69,55 @@
       "ext": "http://127.0.0.1:9978/file/tvbox/tok.txt"
     },
     {
-      "key": "耐看",
-      "name": "🕶┃耐看┃影视",
-      "type": 3,
-      "api": "http://xhztv.top/csp_XBPQ",
-      "jar": "https://jihulab.com/xiaohutx/meisha/-/raw/main/1.jar",
-      "ext": "http://xiaohu.xzam.cn/XBPQ/nk.json"
+      "key": "gszy",
+      "name": "🎥┃光速┃资源",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 0,
+      "categories": [
+        "欧美剧",
+        "韩剧",
+        "日剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片"
+      ]
     },
     {
-      "key": "天天",
-      "name": "💡┃天天┃影视",
+      "key": "阿里云盘登录",
+      "name": "🐲阿里┃云盘登录",
       "type": 3,
-      "api": "http://xhztv.top/csp_TTian",
-      "playerType": 1,
-      "ext": "http://op.ysdqjs.cn",
-      "jar": "http://tv.nxog.top/m/jar.php?id=ou;md5;59a98ed1869e26027a3ff8d6070003f8"
+      "api": "http://xhztv.top/csp_AliYunPan",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt",
+      "jar": "http://tv.nxog.top/m/jar.php?id=ou;md5;34c50af4380beab4dbfeae6c9b41939b"
+    },
+    {
+      "key": "ikunzy",
+      "name": "🐓┃爱坤┃资源",
+      "type": 1,
+      "api": "https://ikunzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "filterable": 0,
+      "categories": [
+        "欧美剧",
+        "韩剧",
+        "日剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片"
+      ]
     },
     {
       "key": "豪华资源",
@@ -160,44 +155,29 @@
       ]
     },
     {
-      "key": "gszy",
-      "name": "🎥┃光速┃资源",
-      "type": 1,
-      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "filterable": 0,
-      "categories": [
-        "欧美剧",
-        "韩剧",
-        "日剧",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片"
-      ]
+      "key": "drpy_js_豆瓣",
+      "name": "🔥聚玩盒子4K",
+      "type": 3,
+      "api": "https://jihulab.com/yydfys/yydf/-/raw/main/yydf/lib/drpy2.min.js",
+      "ext": "https://jihulab.com/yydfys/yydf/-/raw/main/yydf/lib/douban.js",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1707044072121/fan.txt;md5;c3e8c08b4cd6f7fd0f868ea48dd42cb2"
     },
     {
-      "key": "ikunzy",
-      "name": "🐓┃爱坤┃资源",
-      "type": 1,
-      "api": "https://ikunzyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "filterable": 0,
-      "categories": [
-        "欧美剧",
-        "韩剧",
-        "日剧",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片"
-      ]
+      "key": "耐看",
+      "name": "🕶┃耐看┃影视",
+      "type": 3,
+      "api": "http://xhztv.top/csp_XBPQ",
+      "jar": "https://jihulab.com/xiaohutx/meisha/-/raw/main/1.jar",
+      "ext": "http://xiaohu.xzam.cn/XBPQ/nk.json"
+    },
+    {
+      "key": "天天",
+      "name": "💡┃天天┃影视",
+      "type": 3,
+      "api": "http://xhztv.top/csp_TTian",
+      "playerType": 1,
+      "ext": "http://op.ysdqjs.cn",
+      "jar": "http://tv.nxog.top/m/jar.php?id=ou;md5;59a98ed1869e26027a3ff8d6070003f8"
     },
     {
       "key": "hnzy",
@@ -207,6 +187,29 @@
       "searchable": 1,
       "filterable": 0,
       "categories": [
+        "欧美剧",
+        "韩剧",
+        "日剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片"
+      ]
+    },
+    {
+      "key": "lzzy",
+      "name": "🎥┃量子┃资源",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 0,
+      "categories": [
+        "国产动漫",
+        "日韩动漫",
+        "大陆剧",
         "欧美剧",
         "韩剧",
         "日剧",
