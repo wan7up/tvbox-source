@@ -1,0 +1,228 @@
+{
+  "zhi": [
+    {
+      "key": "akianime",
+      "name": "「直」AkiAnime"
+    },
+    {
+      "key": "anich",
+      "name": "「直」AniCh"
+    },
+    {
+      "key": "ciyuancheng",
+      "name": "「直」次元城"
+    },
+    {
+      "key": "dashixiong",
+      "name": "「直」大师兄"
+    },
+    {
+      "key": "dbku",
+      "name": "「直」独播库"
+    },
+    {
+      "key": "dmbus",
+      "name": "「直」动漫巴士"
+    },
+    {
+      "key": "dmghg",
+      "name": "「直」动漫共和国"
+    },
+    {
+      "key": "doubi",
+      "name": "「直」豆哔"
+    },
+    {
+      "key": "guazi",
+      "name": "「直」瓜子"
+    },
+    {
+      "key": "gulu",
+      "name": "「直」咕噜"
+    },
+    {
+      "key": "hanxiaoquan",
+      "name": "「直」韩小圈"
+    },
+    {
+      "key": "hongguo",
+      "name": "「直」红果"
+    },
+    {
+      "key": "jianpian",
+      "name": "「直」荐片"
+    },
+    {
+      "key": "jinpai",
+      "name": "「直」金牌"
+    },
+    {
+      "key": "jiong",
+      "name": "「直」囧次元"
+    },
+    {
+      "key": "juxiafan",
+      "name": "「直」剧下饭"
+    },
+    {
+      "key": "juzhi",
+      "name": "「直」橘汁"
+    },
+    {
+      "key": "kafei",
+      "name": "「直」咖啡"
+    },
+    {
+      "key": "live2vod",
+      "name": "「直」直播"
+    },
+    {
+      "key": "tgfilebot",
+      "name": "「直」TGFileBot"
+    },
+    {
+      "key": "tgvideo",
+      "name": "「直」TG视频"
+    },
+    {
+      "key": "xingya",
+      "name": "「直」星芽"
+    }
+  ],
+  "pan": [
+    {
+      "key": "123ypzysq",
+      "name": "「盘」123社区"
+    },
+    {
+      "key": "4kzn",
+      "name": "「盘」指南"
+    },
+    {
+      "key": "cloudseekr",
+      "name": "「盘」CLOUDSEEK"
+    },
+    {
+      "key": "duoduo",
+      "name": "「盘」多多"
+    },
+    {
+      "key": "fenxiang",
+      "name": "「盘」分享"
+    },
+    {
+      "key": "guanying",
+      "name": "「盘」观影"
+    },
+    {
+      "key": "huajuan",
+      "name": "「盘」花卷"
+    },
+    {
+      "key": "huban",
+      "name": "「盘」虎斑"
+    },
+    {
+      "key": "jjsou",
+      "name": "「盘」JJ搜"
+    },
+    {
+      "key": "jutoushe",
+      "name": "「盘」剧透社"
+    },
+    {
+      "key": "labi",
+      "name": "「盘」蜡笔"
+    },
+    {
+      "key": "libvio",
+      "name": "「盘」立播"
+    },
+    {
+      "key": "miniyingshi",
+      "name": "「盘」迷你影视"
+    },
+    {
+      "key": "muou",
+      "name": "「盘」木偶"
+    },
+    {
+      "key": "my115",
+      "name": "「盘」115"
+    },
+    {
+      "key": "my123",
+      "name": "「盘」123"
+    },
+    {
+      "key": "myali",
+      "name": "「盘」阿里"
+    },
+    {
+      "key": "mybaidu",
+      "name": "「盘」百度"
+    },
+    {
+      "key": "mycloud",
+      "name": "「盘」我的"
+    },
+    {
+      "key": "myguangyapan",
+      "name": "「盘」光鸭"
+    },
+    {
+      "key": "myquark",
+      "name": "「盘」夸克"
+    },
+    {
+      "key": "mytianyi",
+      "name": "「盘」天翼"
+    },
+    {
+      "key": "ouge",
+      "name": "「盘」欧歌"
+    },
+    {
+      "key": "pansou",
+      "name": "「盘」PanSou"
+    },
+    {
+      "key": "pomo",
+      "name": "「盘」Pomo"
+    },
+    {
+      "key": "quanpansou",
+      "name": "「盘」全盘搜"
+    },
+    {
+      "key": "rrdyw",
+      "name": "「盘」人人"
+    },
+    {
+      "key": "shandian",
+      "name": "「盘」闪电"
+    },
+    {
+      "key": "tgchannel",
+      "name": "「盘」TG搜"
+    },
+    {
+      "key": "tgsou",
+      "name": "「盘」TG搜²"
+    },
+    {
+      "key": "wanou",
+      "name": "「盘」玩偶"
+    },
+    {
+      "key": "woniu",
+      "name": "「盘」蜗牛"
+    },
+    {
+      "key": "xiaoban",
+      "name": "「盘」小斑"
+    }
+  ],
+  "zhi_count": 22,
+  "pan_count": 33
+}

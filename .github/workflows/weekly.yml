@@ -53,11 +53,35 @@ jobs:
           md5sum index.config.js | cut -d' ' -f1 | tr -d '\n' > index.config.js.md5
           cat index.js.md5; echo; cat index.config.js.md5; echo
 
+      - name: Extract douer source list and detect new
+        run: |
+          # 备份上周的清单
+          cp miraplay/douer-sources.json /tmp/douer-sources-prev.json 2>/dev/null || echo '{"zhi":[]}' > /tmp/douer-sources-prev.json
+          python3 scripts/extract_douer_sources.py miraplay/index.js
+          python3 << 'PYEOF'
+          import json
+          prev = json.load(open('/tmp/douer-sources-prev.json', encoding='utf-8'))
+          curr = json.load(open('miraplay/douer-sources.json', encoding='utf-8'))
+          prev_keys = {s['key'] for s in prev.get('zhi', [])}
+          new = [s for s in curr['zhi'] if s['key'] not in prev_keys]
+          if new:
+              print("发现 douer 新增「直」源：")
+              for s in new:
+                  print(f"  + {s['name']} ({s['key']})")
+              # 写入待处理文件，触发 TVBox 版搜索
+              open('miraplay/new-sources-pending.json', 'w', encoding='utf-8').write(
+                  json.dumps(new, ensure_ascii=False, indent=2))
+          else:
+              print("douer「直」源无新增")
+          PYEOF
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add miraplay/index.js miraplay/index.js.md5 miraplay/index.config.js.md5
+          git add miraplay/index.js miraplay/index.js.md5 miraplay/index.config.js.md5 miraplay/douer-sources.json
+          # 如果有新源待处理，也提交
+          git add miraplay/new-sources-pending.json 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "douer 无更新"
           else
