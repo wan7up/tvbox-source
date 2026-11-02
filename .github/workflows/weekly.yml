@@ -1,0 +1,93 @@
+name: Weekly Source Maintenance
+
+on:
+  schedule:
+    # 每周一 03:00 UTC = 北京时间 11:00
+    - cron: '0 3 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  douer-sync:
+    name: Sync douer for MiraPlay
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download latest douer
+        run: |
+          curl -sL -o miraplay/index.js \
+            "https://raw.githubusercontent.com/Darklessing/catvod/main/douer/index.js"
+          ls -lh miraplay/index.js
+
+      - name: Apply hide-pan patch
+        run: |
+          python3 << 'PYEOF'
+          import re
+          p = 'miraplay/index.js'
+          src = open(p, encoding='utf-8', errors='ignore').read()
+          old = ".map(o=>set.has(o.meta.key)?{...o,meta:{...o.meta,hidden:!0}}:o)"
+          new = ".map(o=>(set.has(o.meta.key)||o.meta.name.includes(\"「盘」\"))?{...o,meta:{...o.meta,hidden:!0}}:o)"
+          # 如果已经是补丁版，先还原再打，避免重复
+          if new in src:
+              print("补丁已存在，跳过")
+          elif old in src:
+              assert src.count(old) == 1, f"匹配到 {src.count(old)} 处，预期 1 处"
+              src = src.replace(old, new)
+              open(p, 'w', encoding='utf-8').write(src)
+              print("补丁已应用")
+          else:
+              print("警告：未找到补丁锚点，douer 结构可能变了，需人工检查")
+              exit(1)
+          PYEOF
+
+      - name: Syntax check and rebuild md5
+        run: |
+          node --check miraplay/index.js
+          node --check miraplay/index.config.js
+          cd miraplay
+          md5sum index.js | cut -d' ' -f1 | tr -d '\n' > index.js.md5
+          md5sum index.config.js | cut -d' ' -f1 | tr -d '\n' > index.config.js.md5
+          cat index.js.md5; echo; cat index.config.js.md5; echo
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add miraplay/index.js miraplay/index.js.md5 miraplay/index.config.js.md5
+          if git diff --staged --quiet; then
+            echo "douer 无更新"
+          else
+            git commit -m "chore(miraplay): weekly douer sync + hide-pan patch [skip ci]"
+            git push
+          fi
+
+  tvbox-health:
+    name: TVBox curated health check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run health check
+        run: python scripts/health_check.py
+
+      - name: Commit status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/status.json
+          if git diff --staged --quiet; then
+            echo "状态无变化"
+          else
+            git commit -m "chore(tvbox): weekly health check [skip ci]"
+            git push
+          fi
